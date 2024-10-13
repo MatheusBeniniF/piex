@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background-color: #4CAF50;
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar ul {
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.navbar ul li {
+  margin: 0 1.5rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f4f4f4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.sobre-nos, .nossos-projetos {
+  padding: 2rem;
+}
+
+.sobre-nos h2, .nossos-projetos h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.sobre-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto-sobre {
+  width: 50%;
+}
+
+.imagem-sobre img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.nossos-projetos p {
+  text-align: center;
+  color: #666;
+}
+
+.projetos-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.projeto-item {
+  width: 40%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #4CAF50;
+  padding: 1rem;
+  color: white;
+  margin-top: 2rem;
 }
