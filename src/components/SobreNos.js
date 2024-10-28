@@ -5,15 +5,20 @@ export const SobreNos = () => {
       <div className="sobre-content">
         <div className="texto-sobre">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            euismod, urna eu tempor consequat, eros libero posuere eros, sed
-            aliquet massa est nec orci. Aenean a turpis in justo bibendum
-            tempor. Donec vestibulum eros ut augue scelerisque tincidunt.
-          </p>
-          <p>
-            Praesent rutrum, lorem id facilisis interdum, purus justo dictum
-            risus, non pulvinar enim ligula et ligula. Quisque sit amet libero
-            non felis faucibus viverra.
+            Essa iniciativa consiste na uniao de esforços de todos os moradores
+            de determinado bairro que, junto com a Polícia Militar, passam a
+            fazer o monitoramento daquela redondeza, comunicando aos demais e à
+            polícia qualquer suspeita, por meios de comunicação previamente
+            definidos A rede de vizinhos protegidos e, portanto, uma parceria
+            que a Polícia Militar disponibiliza à comunidade para que haja um
+            trabalho preventivo no local de residência de determinados
+            moradores. Por meio de alguns tipos de alerta, como apitos, senha e
+            contrassenha, meios eletrônicos, lanternas, câmeras de segurança,
+            entre outros, os habitantes do bairro avisam a Polícia Militar sobre
+            pessoas ou veículos em atitudes suspeitas e, desse modo, ajudam a
+            atuação preventiva. Traga sua empresa para Life Projetos Sociais e,
+            seja nosso parceiro, juntos podemos construir o futuro dessas
+            criancas
           </p>
         </div>
         <div className="imagem-sobre">

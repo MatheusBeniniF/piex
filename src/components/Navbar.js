@@ -9,7 +9,7 @@ export const Navbar = () => {
           <a href="#sobre-nos">Sobre Nós</a>
         </li>
         <li>
-          <a href="#nossos-projetos">Nossos Projetos</a>
+          <a href="#servicos-oferecidos">Nossos Projetos</a>
         </li>
       </ul>
     </nav>

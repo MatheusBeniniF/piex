@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   padding: 1rem;
 }
 
@@ -45,11 +45,13 @@ body {
   color: #666;
 }
 
-.sobre-nos, .nossos-projetos {
+.sobre-nos,
+.servicos-oferecidos {
   padding: 2rem;
 }
 
-.sobre-nos h2, .nossos-projetos h2 {
+.sobre-nos h2,
+.servicos-oferecidos h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -71,7 +73,7 @@ body {
   border-radius: 8px;
 }
 
-.nossos-projetos p {
+.servicos-oferecidos p {
   text-align: center;
   color: #666;
 }
@@ -91,7 +93,7 @@ body {
 
 .footer {
   text-align: center;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   padding: 1rem;
   color: white;
   margin-top: 2rem;

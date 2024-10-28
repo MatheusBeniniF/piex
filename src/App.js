@@ -1,6 +1,12 @@
 import React from "react";
 import "./App.css";
-import { Footer, Header, Navbar, NossosProjetos, SobreNos,Carousel } from "./components";
+import {
+  Footer,
+  Header,
+  Navbar,
+  ServicosOferecidos,
+  Carousel,
+} from "./components";
 
 function App() {
   return (
@@ -8,8 +14,7 @@ function App() {
       <Navbar />
       <Carousel />
       <Header />
-      <SobreNos />
-      <NossosProjetos />
+      <ServicosOferecidos />
       <Footer />
     </div>
   );
