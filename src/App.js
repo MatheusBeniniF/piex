@@ -6,6 +6,7 @@ import {
   Navbar,
   ServicosOferecidos,
   Carousel,
+  SobreNos
 } from "./components";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Carousel />
       <Header />
+      <  SobreNos/>
       <ServicosOferecidos />
       <Footer />
     </div>

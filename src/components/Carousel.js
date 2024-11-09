@@ -1,31 +1,62 @@
-import lifeImage from "../img/life.png";
-import lifeImage2 from "../img/life2.png";
+import Carousel1 from "../img/Carousel1.jpeg";
+import Carousel2 from "../img/Carousel2.jpeg";
+import Carousel3 from "../img/Carousel3.jpeg";
+import Carousel4 from "../img/Carousel4.jpeg";
+import Carousel5 from "../img/Carousel5.jpeg";
+import "../carousel.css";
 
 export const Carousel = () => {
   return (
-    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-   <ol className="carousel-indicators">
-  <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
-</ol>
-      <div className="carousel-inner" style={{ textAlign: 'center' }}>
+    <div
+      id="carouselExampleIndicators"
+      className="carousel slide carousel-fade"
+      data-ride="carousel"
+      data-interval="5000" // Tempo fixo de 5 segundos entre os slides
+    >
+      <ol className="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
+      <div className="carousel-inner" style={{ textAlign: "center" }}>
         <div className="carousel-item active">
-          <img src={lifeImage} alt="First slide" />
-          <div className="carousel-caption d-none d-md-block">
-          </div>
+          <img src={Carousel1} alt="First slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
         </div>
         <div className="carousel-item">
-          <img src={lifeImage2} alt="Second slide" />
-          <div className="carousel-caption d-none d-md-block">
-          </div>
+          <img src={Carousel2} alt="Second slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div className="carousel-item">
+          <img src={Carousel3} alt="Third slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div className="carousel-item">
+          <img src={Carousel4} alt="Fourth slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div className="carousel-item">
+          <img src={Carousel5} alt="Fifth slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
         </div>
       </div>
-      <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a
+        className="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="sr-only">Previous</span>
       </a>
-      <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a
+        className="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="sr-only">Next</span>
       </a>

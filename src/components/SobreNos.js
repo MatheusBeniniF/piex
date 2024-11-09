@@ -1,28 +1,19 @@
+import Kleyton from "../img/Kleyton.jpeg";
+
+
 export const SobreNos = () => {
   return (
     <section id="sobre-nos" className="sobre-nos">
-      <h2>Sobre Nós</h2>
+      <h1 style={{textAlign:'center',fontSize:'50px'}}>Sobre Nós</h1>
       <div className="sobre-content">
         <div className="texto-sobre">
-          <p>
-            Essa iniciativa consiste na uniao de esforços de todos os moradores
-            de determinado bairro que, junto com a Polícia Militar, passam a
-            fazer o monitoramento daquela redondeza, comunicando aos demais e à
-            polícia qualquer suspeita, por meios de comunicação previamente
-            definidos A rede de vizinhos protegidos e, portanto, uma parceria
-            que a Polícia Militar disponibiliza à comunidade para que haja um
-            trabalho preventivo no local de residência de determinados
-            moradores. Por meio de alguns tipos de alerta, como apitos, senha e
-            contrassenha, meios eletrônicos, lanternas, câmeras de segurança,
-            entre outros, os habitantes do bairro avisam a Polícia Militar sobre
-            pessoas ou veículos em atitudes suspeitas e, desse modo, ajudam a
-            atuação preventiva. Traga sua empresa para Life Projetos Sociais e,
-            seja nosso parceiro, juntos podemos construir o futuro dessas
-            criancas
+          <p style={{fontSize:'23px'}}>
+          A associação Life Projetos Sociais, existe há 15 anos, criada por Kleyton Oliveira, sendo que o mesmo está à frente do projeto desde sua implantação.
+          Atualmente a Associação Life Projetos Sociais, é registrada e localizada no bairro Santa Efigênia, Juiz de Fora/MG, com sede provisória na rua Antônio da Rocha Lima, número 84, onde atendemos diversas comunidades sitiadas.
           </p>
         </div>
         <div className="imagem-sobre">
-          <img src="https://via.placeholder.com/400" alt="Sobre nós" />
+          <img src={Kleyton} style={{width: '61vh'}} alt="Sobre nós" />
         </div>
       </div>
     </section>
