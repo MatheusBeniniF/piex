@@ -1,8 +1,8 @@
 .footer {
-  padding: 40px 0;
   color: white;
   background-color: black;
   text-align: center;
+  width: 100%;
 }
 
 .footer label {
@@ -16,8 +16,16 @@
 .footer .container-fluid {
   padding: 0 5%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+}
+
+.footer .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .footer img {
@@ -36,6 +44,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex: 1;
 }
 
 .footer-column:first-child {
