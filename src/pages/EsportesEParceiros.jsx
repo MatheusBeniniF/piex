@@ -1,9 +1,10 @@
 import React from "react";
 import { Card } from "../components";
+import "../styles/EsportesEParceiros.css";
 
 const EsportesEParceiros = () => {
   return (
-    <div>
+    <div className="esportes-parceiros">
       <section>
         <h2>Atividades Esportivas</h2>
         <Card title="Jiu-Jitsu e Futebol">
@@ -12,7 +13,7 @@ const EsportesEParceiros = () => {
             esportes, incentivando a prática esportiva entre crianças e
             adolescentes.
           </p>
-          <h3>Núcleos de Jiu-Jitsu</h3>
+          <h3 className="card-title" >Núcleos de Jiu-Jitsu</h3>
           <p>
             Nosso núcleo de Jiu-Jitsu atende crianças com e sem deficiência,
             trazendo benefícios para o desenvolvimento físico e mental.
