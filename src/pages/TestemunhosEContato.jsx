@@ -1,9 +1,10 @@
 import React from "react";
 import { Card } from "../components";
+import "../styles/TestemunhosEContato.css";
 
 const TestemunhosEContato = () => {
   return (
-    <div>
+    <div className="testemunhos-contato">
       <section>
         <h2>Testemunhos</h2>
         <Card title="O que dizem sobre nós">
