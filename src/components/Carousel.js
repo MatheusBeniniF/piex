@@ -3,7 +3,7 @@ import Carousel2 from "../img/Carousel2.jpeg";
 import Carousel3 from "../img/Carousel3.jpeg";
 import Carousel4 from "../img/Carousel4.jpeg";
 import Carousel5 from "../img/Carousel5.jpeg";
-import "../carousel.css";
+import "../styles/Carousel.css";
 
 const Carousel = () => {
   return (

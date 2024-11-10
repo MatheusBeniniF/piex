@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { EsportesEParceiros, Home, SobreEServicos } from "./pages";
 import { TestemunhosEContato } from "./pages/TestemunhosEContato";
 import { Footer, Navbar } from "./components";
+import './styles/main.css';
 
 function App() {
   return (

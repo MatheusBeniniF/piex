@@ -1,0 +1,42 @@
+.footer {
+  padding: 40px 0;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.footer label {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.footer .container-fluid {
+  padding: 0 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  max-width: 180px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.footer img:hover {
+  opacity: 1;
+}
+
+.footer-column {
+  padding: 40px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column:first-child {
+  border-left: none;
+} 

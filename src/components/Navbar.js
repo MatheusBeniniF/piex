@@ -1,22 +1,27 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import LogoNova from "../img/LogoNova.jpeg";
+import "../styles/navbar.css";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <h1>Projeto Life</h1>
+      <div className="navbar-brand">
+        <img src={LogoNova} alt="Projeto Life Logo" className="navbar-logo" />
+        <h1>Projeto Life</h1>
+      </div>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/sobre-e-servicos">Sobre e Serviços</Link>
+          <NavLink to="/sobre-e-servicos">Sobre e Serviços</NavLink>
         </li>
         <li>
-          <Link to="/esportes-e-parceiros">Esportes e Parceiros</Link>
+          <NavLink to="/esportes-e-parceiros">Esportes e Parceiros</NavLink>
         </li>
         <li>
-          <Link to="/testemunhos-e-contato">Testemunhos e Contato</Link>
+          <NavLink to="/testemunhos-e-contato">Testemunhos e Contato</NavLink>
         </li>
       </ul>
     </nav>
