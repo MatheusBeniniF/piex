@@ -5,7 +5,7 @@ import Carousel4 from "../img/Carousel4.jpeg";
 import Carousel5 from "../img/Carousel5.jpeg";
 import "../carousel.css";
 
-export const Carousel = () => {
+const Carousel = () => {
   return (
     <div
       id="carouselExampleIndicators"
@@ -14,7 +14,11 @@ export const Carousel = () => {
       data-interval="5000" // Tempo fixo de 5 segundos entre os slides
     >
       <ol className="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          className="active"
+        ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
@@ -63,3 +67,5 @@ export const Carousel = () => {
     </div>
   );
 };
+
+export { Carousel };

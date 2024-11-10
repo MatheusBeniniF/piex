@@ -1,26 +1,26 @@
 import React from "react";
-import Logo from "../img/LogoNova.jpeg";
-import "../navbar.css"; // Certifique-se de criar o arquivo CSS correspondente.
+import { Link } from "react-router-dom";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <a href="#home">
-          <img src={Logo} alt="Logo" className="logo-img" />
-        </a>
-      </div>
-      <ul className="navbar-links">
+      <h1>Projeto Life</h1>
+      <ul>
         <li>
-          <a href="#home">Início</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#sobre-nos" >Sobre Nós</a>
+          <Link to="/sobre-e-servicos">Sobre e Serviços</Link>
         </li>
         <li>
-          <a href="#servicos-oferecidos" >Nossos Projetos</a>
+          <Link to="/esportes-e-parceiros">Esportes e Parceiros</Link>
+        </li>
+        <li>
+          <Link to="/testemunhos-e-contato">Testemunhos e Contato</Link>
         </li>
       </ul>
     </nav>
   );
 };
+
+export { Navbar };
