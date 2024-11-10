@@ -22,9 +22,13 @@ const Footer = () => {
               CNPJ 29.666.808/0001-94
             </label>
           </div>
-          <div className="col-md-4 footer-column">
+          <a
+            className="col-md-4 footer-column"
+            href="https://www.vianna.edu.br/"
+            target="_blank"
+          >
             <img src={Vianna} alt="vianna" />
-          </div>
+          </a>
         </div>
       </div>
     </footer>
