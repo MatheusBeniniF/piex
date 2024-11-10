@@ -6,7 +6,7 @@ const TestemunhosEContato = () => {
     <div>
       <section>
         <h2>Testemunhos</h2>
-        <Card>
+        <Card title="O que dizem sobre nós">
           <blockquote>
             <p>
               "O Jiu-Jitsu mudou a vida do meu filho. Ele é mais disciplinado e
@@ -26,7 +26,7 @@ const TestemunhosEContato = () => {
 
       <section>
         <h2>Contato</h2>
-        <Card>
+        <Card title="Fale Conosco">
           <p>
             Entre em contato conosco para saber mais ou para se tornar um
             parceiro do Projeto Life.

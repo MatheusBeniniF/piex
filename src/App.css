@@ -66,3 +66,33 @@ section {
   align-items: center;
   text-align: center;
 }
+
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}

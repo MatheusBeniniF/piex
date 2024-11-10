@@ -6,7 +6,7 @@ const EsportesEParceiros = () => {
     <div>
       <section>
         <h2>Atividades Esportivas</h2>
-        <Card>
+        <Card title="Jiu-Jitsu e Futebol">
           <p>
             O Projeto Life oferece Jiu-Jitsu, futebol de salão, entre outros
             esportes, incentivando a prática esportiva entre crianças e
@@ -22,7 +22,7 @@ const EsportesEParceiros = () => {
 
       <section>
         <h2>Parceiros e Apoiadores</h2>
-        <Card>
+        <Card title="Nossos Parceiros">
           <p>
             Agradecemos aos nossos parceiros, como Estrela Urbanidade e
             Instituto Nathalia Braga, que nos ajudam a fazer o projeto crescer.

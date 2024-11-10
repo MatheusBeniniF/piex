@@ -6,7 +6,7 @@ const SobreEServicos = () => {
     <div>
       <section>
         <h2>Sobre o Projeto Life</h2>
-        <Card>
+        <Card title="Nossa História">
           <p>
             O Projeto Life foi fundado há 15 anos por Kleyton Oliveira. Desde
             então, impactou mais de 480 famílias e 1600 crianças carentes.
@@ -21,7 +21,7 @@ const SobreEServicos = () => {
 
       <section>
         <h2>Serviços Oferecidos</h2>
-        <Card>
+        <Card title="Nossos Serviços">
           <ul>
             <li>Cestas Básicas</li>
             <li>Marcação de Consultas e Cirurgias</li>
