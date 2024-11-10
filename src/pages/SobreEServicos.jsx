@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "../components";
-import "./SobreEServicos.css";
+import "../styles/SobreEServicos.css";
 
 const SobreEServicos = () => {
   return (
