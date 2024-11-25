@@ -32,18 +32,34 @@ const TestemunhosEContato = () => {
             Entre em contato conosco para saber mais ou para se tornar um
             parceiro do Projeto Life.
           </p>
-          <form>
-            <label htmlFor="name">Nome:</label>
-            <input type="text" id="name" name="name" required />
-
-            <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label htmlFor="message">Mensagem:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Enviar</button>
-          </form>
+          <p>
+            Clique no botão abaixo para nos enviar uma mensagem pelo WhatsApp!
+          </p>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <button
+              onClick={() =>
+                (window.location.href = "https://wa.me/5532998281521")
+              }
+              target="_blank"
+              style={{
+                backgroundColor: "#25D366",
+                color: "white",
+                border: "none",
+                padding: "10px 20px",
+                borderRadius: "5px",
+                cursor: "pointer",
+                fontSize: "16px",
+              }}
+            >
+              Fale Conosco pelo WhatsApp
+            </button>
+          </div>
         </Card>
       </section>
     </div>

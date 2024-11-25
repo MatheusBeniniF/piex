@@ -15,20 +15,19 @@ const EsportesEParceiros = () => {
             esportes, incentivando a prática esportiva entre crianças e
             adolescentes.
           </p>
-          <h3 className="card-title" >Núcleos de Jiu-Jitsu</h3>
+          <h3 className="card-title">Núcleos de Jiu-Jitsu</h3>
           <p>
             Nosso núcleo de Jiu-Jitsu atende crianças com e sem deficiência,
             trazendo benefícios para o desenvolvimento físico e mental.
           </p>
           <div className="row">
-<div className="col-md-6">
-<img className="imgJiu" src={jiuJitsu}></img>
-</div>
-<div className="col-md-6">
-<img className="imgJiu" src={jiuJitsu2}></img>
-</div>
+            <div className="col-md-6">
+              <img className="imgJiu" src={jiuJitsu}></img>
+            </div>
+            <div className="col-md-6">
+              <img className="imgJiu" src={jiuJitsu2}></img>
+            </div>
           </div>
-
         </Card>
       </section>
 
