@@ -22,6 +22,9 @@ const Footer = () => {
               CNPJ 29.666.808/0001-94
             </label>
           </div>
+          <div>
+            
+          </div>
           <a
             className="col-md-4 footer-column"
             href="https://www.vianna.edu.br/"
@@ -29,8 +32,15 @@ const Footer = () => {
           >
             <img src={Vianna} alt="vianna" />
           </a>
+
+
         </div>
       </div>
+      <div>
+          <label>Site criado pelos alunos Luis Antônio, Matheus Benini e Murilo Amaral juntamente com o 
+            instituto Vianna Júnior pelo projeto de extensão
+          </label>
+          </div>
     </footer>
   );
 };
