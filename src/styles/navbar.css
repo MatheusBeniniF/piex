@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     position: sticky;
-    top:0px;
+    top: 0px;
     z-index: 1500;
     height: 26vh;
     padding: 1rem 2rem;
     background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
@@ -68,30 +68,30 @@
 }
 
 .navbar ul {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar li a {
-  color: #333;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
 }
 
 .navbar li a:hover {
-  color: #007bff; /* Or any color that matches your theme */
-  transform: translateY(-2px);
+    color: #007bff;
+    /* Or any color that matches your theme */
+    transform: translateY(-2px);
 }
 
 /* Optional: Add an active state for the current page */
 .navbar li a.active {
-  color: #007bff;
-  border-bottom: 2px solid #007bff;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
 }
-

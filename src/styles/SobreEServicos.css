@@ -20,13 +20,13 @@
   position: relative;
 }
 
-.imgBorder{
+.imgBorder {
   border-radius: 8rem;
 }
 
 
-.infoTexto{
+.infoTexto {
   font-size: 25px;
   color: white;
-    font-weight: bold;
+  font-weight: bold;
 }
