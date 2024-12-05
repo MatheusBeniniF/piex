@@ -11,6 +11,9 @@ import separador from "../img/Separador.jpeg";
 const SobreEServicos = () => {
   return (
     <div className="sobre-servicos">
+      <div>
+        <h1 style={{color:"white",marginBottom:"10vh"}}>Como surgiu o projeto Life?</h1>
+      </div>
       <section>      
         <div className="col-md-12" style={{ display: "flex" }}>
           <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">          <label className="infoTexto">
@@ -26,6 +29,9 @@ const SobreEServicos = () => {
 
       </section>
       <section>
+      <div>
+        <h1 style={{color:"white",marginBottom:"10vh",textAlign:"center"}}>O   que ele faz?</h1>
+      </div>
         <div className="col-md-12" style={{ display: "flex" }}>
           <div className="col-md-6">
             <img src={familia} className="imgBorder" style={{ width: "73%" }}></img>

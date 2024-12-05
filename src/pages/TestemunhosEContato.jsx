@@ -6,26 +6,6 @@ const TestemunhosEContato = () => {
   return (
     <div className="testemunhos-contato">
       <section>
-        <h2>Testemunhos</h2>
-        <Card title="O que dizem sobre nós">
-          <blockquote>
-            <p>
-              "O Jiu-Jitsu mudou a vida do meu filho. Ele é mais disciplinado e
-              seguro de si."
-            </p>
-            <footer>— Maria, mãe de aluno</footer>
-          </blockquote>
-          <blockquote>
-            <p>
-              "Recebemos suporte e carinho em momentos muito difíceis. Agradeço
-              ao Projeto Life."
-            </p>
-            <footer>— João, pai de família atendida</footer>
-          </blockquote>
-        </Card>
-      </section>
-
-      <section>
         <h2>Contato</h2>
         <Card title="Fale Conosco">
           <p>
