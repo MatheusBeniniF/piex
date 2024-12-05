@@ -16,13 +16,13 @@ const SobreEServicos = () => {
       </div>
       <section>      
         <div className="col-md-12" style={{ display: "flex" }}>
-          <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">          <label className="infoTexto">
+          <div style={{ display: "flex", alignItems: "center" }} className="col-md-6"><label className="infoTexto">
             A associação Life Projetos Sociais, existe há 15 anos, criada por Kleyton Oliveira, sendo que o mesmo está à frente do projeto desde sua implantação.
             Atualmente a Associação Life Projetos Sociais, é registrada e localizada no bairro Santa Efigênia, Juiz de Fora/MG, com sede provisória na rua Antônio da Rocha Lima, número 84, onde atendemos diversas comunidades sitiadas.
           </label>
           </div>
 
-          <div className="col-md-6">  <img className="imgBorder" style={{ width: "100%" }} src={kleyton}></img></div>
+          <div className="col-md-6" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>  <img className="imgBorder" style={{ width: "65%" }} src={kleyton}></img></div>
         </div>
 
 
@@ -33,8 +33,8 @@ const SobreEServicos = () => {
         <h1 style={{color:"white",marginBottom:"10vh",textAlign:"center"}}>O   que ele faz?</h1>
       </div>
         <div className="col-md-12" style={{ display: "flex" }}>
-          <div className="col-md-6">
-            <img src={familia} className="imgBorder" style={{ width: "73%" }}></img>
+          <div className="col-md-6" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+            <img src={familia} className="imgBorder" style={{ width: "65%" }}></img>
           </div>
           <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">
             <label className="infoTexto">O projeto atende cerca de 480 famílias carentes entre deficientes físicos e crianças com autismo</label>
