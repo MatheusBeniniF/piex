@@ -30,11 +30,11 @@ const SobreEServicos = () => {
             </label>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6" style={{display:"flex",justifyContent:"center"}}>
             {" "}
             <img
               className="imgBorder"
-              style={{ width: "100%" }}
+              style={{ width: "65%" }}
               src={kleyton}
             ></img>
           </div>
@@ -53,11 +53,11 @@ const SobreEServicos = () => {
           </h1>
         </div>
         <div className="col-md-12" style={{ display: "flex" }}>
-          <div className="col-md-6">
+          <div className="col-md-6" style={{display:"flex",justifyContent:"center"}}>
             <img
               src={familia}
               className="imgBorder"
-              style={{ width: "73%" }}
+              style={{ width: "65%" }}
             ></img>
           </div>
           <div
@@ -101,12 +101,12 @@ const SobreEServicos = () => {
           style={{ display: "flex", marginTop: "10vh" }}
           className="col-md-12"
         >
-          <div className="col-md-6">
+          <div className="col-md-6" style={{display:"flex",justifyContent:"center"}}>
             {" "}
             <img
               className="imgBorder"
               src={medicamento}
-              style={{ width: "100%" }}
+              style={{ width: "65%" }}
             ></img>
           </div>
           <div
