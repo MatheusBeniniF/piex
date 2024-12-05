@@ -33,7 +33,7 @@ const Header = () => {
         }}
       >
         <h1>Missão</h1>
-        <p>
+        <p style={{ color: "black" }}>
           Contribuir de forma diferenciada para o desenvolvimento do ser humano
           em sua totalidade estabelecendo assim maior justiça social através da
           formação integral de crianças e adolescentes ajudando-os a se sentirem
@@ -41,18 +41,18 @@ const Header = () => {
         </p>
 
         <h1>Valores</h1>
-        <p>
+        <p style={{ color: "black" }}>
           Acreditamos que se no presente educarmos as crianças com amor e
           dedicação, no futuro teremos cidadãos de bem e uma sociedade mais
           justa.
         </p>
       </div>
-      <div style={{ textAlign: "right", marginTop: "15vh" }}>
-        <h2 style={{ fontStyle: "italic" }}>
+      <div
+        style={{ textAlign: "right", marginTop: "15vh", marginBottom: "15rem" }}
+      >
+        <h2 style={{ fontStyle: "italic", color: "black" }}>
           "Virtude sem caridade não passa de nome"
         </h2>
-      </div>
-      <div style={{ textAlign: "right" }}>
         <h5>ISAAC NEWTON</h5>
       </div>
     </header>

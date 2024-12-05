@@ -30,7 +30,10 @@ const SobreEServicos = () => {
             </label>
           </div>
 
-          <div className="col-md-6" style={{display:"flex",justifyContent:"center"}}>
+          <div
+            className="col-md-6"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             {" "}
             <img
               className="imgBorder"
@@ -53,7 +56,10 @@ const SobreEServicos = () => {
           </h1>
         </div>
         <div className="col-md-12" style={{ display: "flex" }}>
-          <div className="col-md-6" style={{display:"flex",justifyContent:"center"}}>
+          <div
+            className="col-md-6"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <img
               src={familia}
               className="imgBorder"
@@ -71,7 +77,7 @@ const SobreEServicos = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section style={{ marginBottom: "20rem" }}>
         <div style={{ backgroundColor: "#ec1d25" }}>
           <h2 style={{ color: "white" }}>
             Serviços Oferecidos pelo projeto Life são:
@@ -101,7 +107,10 @@ const SobreEServicos = () => {
           style={{ display: "flex", marginTop: "10vh" }}
           className="col-md-12"
         >
-          <div className="col-md-6" style={{display:"flex",justifyContent:"center"}}>
+          <div
+            className="col-md-6"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             {" "}
             <img
               className="imgBorder"

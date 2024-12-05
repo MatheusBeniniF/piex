@@ -1,9 +1,10 @@
 import React from "react";
 import { Carousel, Header } from "../components";
+import "../styles/Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Carousel />
       <Header />
     </div>

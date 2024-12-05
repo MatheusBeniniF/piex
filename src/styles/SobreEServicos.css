@@ -1,5 +1,4 @@
 .sobre-servicos {
-  /* max-width: 1200px; */
   margin: 0 auto;
   padding: 2rem;
   background-color: #016bb7;
@@ -24,9 +23,36 @@
   border-radius: 8rem;
 }
 
-
 .infoTexto {
   font-size: 25px;
   color: white;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .sobre-servicos {
+    padding: 1rem;
+  }
+
+  .sobre-servicos h2 {
+    font-size: 2rem;
+  }
+
+  .infoTexto {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sobre-servicos {
+    padding: 0.5rem;
+  }
+
+  .sobre-servicos h2 {
+    font-size: 1.5rem;
+  }
+
+  .infoTexto {
+    font-size: 18px;
+  }
 }

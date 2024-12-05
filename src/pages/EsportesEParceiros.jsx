@@ -1,7 +1,5 @@
 import React from "react";
-import { Card } from "../components";
 import "../styles/EsportesEParceiros.css";
-import jiuJitsu from "../img/jiuJitsu.jpeg";
 import jiuJitsu3 from "../img/jiuJitsu3.jpeg";
 import imagemFut from "../img/Futebol.jpeg";
 import marcosImg from "../img/MarcosChurrascada.jpeg";
@@ -35,7 +33,8 @@ const EsportesEParceiros = () => {
               className="imgBorder"
               style={{ width: "100%" }}
               src={imagemFut}
-            ></img>
+              alt="Futebol"
+            />
           </div>
         </div>
 
@@ -181,7 +180,13 @@ const EsportesEParceiros = () => {
           <img src={zumba} style={{ width: "70%" }}></img>
         </div>
       </section>
-      <div style={{ backgroundColor: "#f4f4f4", padding: "2rem 0" }}>
+      <div
+        style={{
+          backgroundColor: "#f4f4f4",
+          padding: "2rem 0",
+          marginBottom: "15rem",
+        }}
+      >
         <h2
           style={{ textAlign: "center", color: "#333", marginBottom: "1rem" }}
         >

@@ -61,3 +61,27 @@
   font-weight: bold;
   margin-right: 1rem;
 }
+
+/* Mobile friendly styles */
+@media (max-width: 600px) {
+  .card {
+    max-width: 100%;
+    margin: 1rem;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .card li {
+    padding: 0.6rem 0;
+  }
+}
