@@ -35,9 +35,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/testemunhos-e-contato" onClick={scrollToTop}>
-            Contato
-          </NavLink>
+
         </li>
       </ul>
     </nav>

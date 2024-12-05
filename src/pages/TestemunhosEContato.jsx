@@ -5,7 +5,6 @@ import "../styles/TestemunhosEContato.css";
 const TestemunhosEContato = () => {
   return (
     <div className="testemunhos-contato">
-      <>
         <section>
           <h2 style={{color:"white"}}>Contato</h2>
           <Card title="Fale Conosco">
@@ -43,7 +42,7 @@ const TestemunhosEContato = () => {
             </div>
           </Card>
         </section>
-      </>
+   
       <div style={{ height: "100%" }} />
     </div>
   );
