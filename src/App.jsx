@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { EsportesEParceiros, Home, SobreEServicos } from "./pages";
 import { TestemunhosEContato } from "./pages/TestemunhosEContato";
 import { Footer, Navbar } from "./components";
-import './styles/main.css';
+import "./styles/main.css";
 
 function App() {
   return (
@@ -14,7 +14,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sobre-e-servicos" element={<SobreEServicos />} />
         <Route path="/esportes-e-parceiros" element={<EsportesEParceiros />} />
-        <Route path="/testemunhos-e-contato"
+        <Route
+          path="/testemunhos-e-contato"
           element={<TestemunhosEContato />}
         />
       </Routes>

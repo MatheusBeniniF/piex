@@ -42,7 +42,8 @@ label {
     margin-bottom: 0.3rem;
 }
 
-input, textarea {
+input,
+textarea {
     padding: 0.8rem;
     border: 2px solid #e0e0e0;
     border-radius: 8px;
@@ -50,7 +51,8 @@ input, textarea {
     transition: border-color 0.3s ease;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: none;
     border-color: #4a90e2;
     box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);

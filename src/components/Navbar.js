@@ -20,16 +20,24 @@ const Navbar = () => {
       </div>
       <ul>
         <li>
-          <NavLink to="/" onClick={scrollToTop}>Home</NavLink>
+          <NavLink to="/" onClick={scrollToTop}>
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/sobre-e-servicos" onClick={scrollToTop}>Sobre e Serviços</NavLink>
+          <NavLink to="/sobre-e-servicos" onClick={scrollToTop}>
+            Sobre e Serviços
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/esportes-e-parceiros" onClick={scrollToTop}>Esportes e Parceiros</NavLink>
+          <NavLink to="/esportes-e-parceiros" onClick={scrollToTop}>
+            Esportes e Parceiros
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/testemunhos-e-contato" onClick={scrollToTop}>Contato</NavLink>
+          <NavLink to="/testemunhos-e-contato" onClick={scrollToTop}>
+            Contato
+          </NavLink>
         </li>
       </ul>
     </nav>

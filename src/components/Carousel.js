@@ -11,7 +11,7 @@ const Carousel = () => {
       id="carouselExampleIndicators"
       className="carousel slide carousel-fade"
       data-ride="carousel"
-      data-interval="5000" // Tempo fixo de 5 segundos entre os slides
+      data-interval="5000"
     >
       <ol className="carousel-indicators">
         <li
