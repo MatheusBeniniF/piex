@@ -1,3 +1,6 @@
+
+
+
 const Header = () => {
   return (
     <header className="header">
@@ -26,6 +29,27 @@ const Header = () => {
         <span className="highlight">Life Projetos Sociais</span> e,seja
         nosso parceiro,juntos podemos construir o futuro dessas crianças.
       </p>
+
+
+
+      <div style={{backgroundColor:"white",padding:"40px",borderRadius:"5rem"}}>
+        <h1>Missão</h1>
+        <p>Contribuir de forma diferenciada para o desenvolvimento do ser humano em sua totalidade estabelecendo
+          assim maior justiça social através da formação integral de crianças e adolescentes ajudando-os a se sentirem 
+          pessoas capazes de transformarem a sociedade em um lugar melhor.
+        </p>
+
+        <h1>Valores</h1>
+        <p>Acreditamos que se no presente educarmos as crianças com amor e dedicação, no futuro teremos cidadãos 
+          de bem e uma sociedade mais justa.
+        </p>
+      </div>  
+ <div style={{textAlign:"right",marginTop:"15vh"}}>
+  <h2 style={{ fontStyle: "italic" }}>"Virtude sem caridade não passa de nome"</h2>
+ </div>
+ <div style={{textAlign:"right"}}>
+  <h5>ISAAC NEWTON</h5>
+ </div>
     </header>
   );
 };

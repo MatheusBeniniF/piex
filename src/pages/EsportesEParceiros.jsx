@@ -3,36 +3,51 @@ import { Card } from "../components";
 import "../styles/EsportesEParceiros.css";
 import jiuJitsu from "../img/jiuJitsu.jpeg";
 import jiuJitsu2 from "../img/jiuJitsu2.jpeg";
+import imagemFut from "../img/Futebol.jpeg";
 
 const EsportesEParceiros = () => {
   return (
+
+    
     <div className="esportes-parceiros">
       <section>
-        <h2>Atividades Esportivas</h2>
-        <Card title="Jiu-Jitsu e Futebol">
-          <p>
+        <div>
+        <h2 style={{color:"white"}}>Atividades Esportivas</h2>
+        </div>
+
+   <div className="col-md-12 cardParceiros">
+<div className="col-md-6">
+<label className="infoTexto">
             O Projeto Life oferece Jiu-Jitsu, futebol de salão, entre outros
             esportes, incentivando a prática esportiva entre crianças e
             adolescentes.
-          </p>
-          <h3 className="card-title">Núcleos de Jiu-Jitsu</h3>
-          <p>
+          </label>
+</div>
+
+<div className="col-md-6">
+<img className="imgBorder" style={{width:"100%"}} src={imagemFut}></img>
+</div>
+   </div>
+
+   <h2 className="card-title" style={{color:"white"}}>Núcleos de Jiu-Jitsu</h2>
+        <div className="col-md-12 cardParceiros">
+<div className="col-md-6" style={{textAlign:"center"}}>
+<img className="imgJiu imgBorder" src={jiuJitsu}></img>
+</div>
+
+<div className="col-md-6 divMenor">
+<label className="infoTexto" style={{top:"100px",position:"relative"}}>
             Nosso núcleo de Jiu-Jitsu atende crianças com e sem deficiência,
             trazendo benefícios para o desenvolvimento físico e mental.
-          </p>
-          <div className="row">
-            <div className="col-md-6">
-              <img className="imgJiu" src={jiuJitsu}></img>
-            </div>
-            <div className="col-md-6">
-              <img className="imgJiu" src={jiuJitsu2}></img>
-            </div>
-          </div>
-        </Card>
+          </label>
+</div>
+        </div>
+         
+     
       </section>
 
       <section>
-        <h2>Parceiros e Apoiadores</h2>
+        <h2 style={{color:"white"}}>Parceiros e Apoiadores</h2>
         <Card title="Nossos Parceiros">
           <p>
             Agradecemos aos nossos parceiros, como Estrela Urbanidade e

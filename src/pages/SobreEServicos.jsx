@@ -1,39 +1,68 @@
 import React from "react";
 import { Card } from "../components";
 import "../styles/SobreEServicos.css";
+import kleyton from "../img/Kleyton.jpeg";
+import familia from "../img/Familia.jpeg";
+import cesta from "../img/CestaBasica.jpeg";
+import medicamento from "../img/medicamento-generico.jpeg";
+import separador from "../img/Separador.jpeg";
+
 
 const SobreEServicos = () => {
   return (
     <div className="sobre-servicos">
-      <section>
-        <h2>Sobre o Projeto Life</h2>
-        <Card title="Nossa História">
-          <p>
-            O Projeto Life foi fundado há 15 anos por Kleyton Oliveira. Desde
-            então, impactou mais de 480 famílias e 1600 crianças carentes.
-          </p>
-          <p>
-            A missão do projeto é contribuir para o desenvolvimento integral de
-            crianças e adolescentes, promovendo justiça social e educação com
-            amor.
-          </p>
-        </Card>
-      </section>
+      <section>      
+        <div className="col-md-12" style={{ display: "flex" }}>
+          <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">          <label className="infoTexto">
+            A associação Life Projetos Sociais, existe há 15 anos, criada por Kleyton Oliveira, sendo que o mesmo está à frente do projeto desde sua implantação.
+            Atualmente a Associação Life Projetos Sociais, é registrada e localizada no bairro Santa Efigênia, Juiz de Fora/MG, com sede provisória na rua Antônio da Rocha Lima, número 84, onde atendemos diversas comunidades sitiadas.
+          </label>
+          </div>
 
+          <div className="col-md-6">  <img className="imgBorder" style={{ width: "100%" }} src={kleyton}></img></div>
+        </div>
+
+
+
+      </section>
       <section>
-        <h2>Serviços Oferecidos</h2>
-        <Card title="Nossos Serviços">
-          <ul>
-            <li>Cestas Básicas</li>
-            <li>Marcação de Consultas e Cirurgias</li>
-            <li>Atendimento Jurídico e Psicológico</li>
-            <li>Distribuição de Remédios e Farmácia Compartilhada</li>
-          </ul>
-          <p>
-            Esses serviços são essenciais para apoiar as famílias e garantir um
-            desenvolvimento saudável e justo para todos.
-          </p>
-        </Card>
+        <div className="col-md-12" style={{ display: "flex" }}>
+          <div className="col-md-6">
+            <img src={familia} className="imgBorder" style={{ width: "73%" }}></img>
+          </div>
+          <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">
+            <label className="infoTexto">O projeto atende cerca de 480 famílias carentes entre deficientes físicos e crianças com autismo</label>
+          </div>
+
+
+        </div>
+
+
+      </section>
+      <section>
+        <div style={{backgroundColor:"#ec1d25"}}>
+        <h2 style={{color:"white"}}>Serviços Oferecidos pelo projeto Life são:</h2>
+        </div>
+
+        <div style={{ display: "flex" }} className="col-md-12">
+          <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">
+            <label className="infoTexto">Cestas básicas, marcação de consultas, cirurgias,fisioterapias,atendimentos jurídicos,psicológicos
+              encaminhamento para creches e distribuição de remédios.
+            </label>
+          </div>
+          <div className="col-md-6">
+            <img src={cesta} className="imgBorder" style={{ width: "100%" }}></img>
+          </div>
+        </div>
+        <div style={{ display: "flex", marginTop: "10vh" }} className="col-md-12">
+          <div className="col-md-6">  <img className="imgBorder" src={medicamento} style={{ width: "100%" }}></img></div>
+          <div style={{ display: "flex", alignItems: "center" }} className="col-md-6">
+            <label className="infoTexto">Farmácia compartilhada: onde pessoas que não fazem mais uso de certas medicações,doam para o projeto
+              ,este encaminha para os assistidos pelo mesmo,para manterem seus tratamentos diários.
+            </label>
+          </div>
+        </div>
+
       </section>
     </div>
   );
