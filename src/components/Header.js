@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="header">
-      <h1>Bem-vindo à Associação Life Projetos Sociais</h1>
+      <h1 style={{color:"white"}}>Bem-vindo à Associação Life Projetos Sociais</h1>
       <p>
         Essa iniciativa consiste na união de esforços de todos os moradores de
         determinado bairro que, junto com a Polícia Militar, passam a fazer o

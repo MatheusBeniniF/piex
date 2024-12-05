@@ -7,7 +7,7 @@ const TestemunhosEContato = () => {
     <div className="testemunhos-contato">
       <>
         <section>
-          <h2>Contato</h2>
+          <h2 style={{color:"white"}}>Contato</h2>
           <Card title="Fale Conosco">
             <p style={{ color: "black" }}>
               Entre em contato conosco para saber mais ou para se tornar um
