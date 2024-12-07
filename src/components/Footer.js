@@ -6,14 +6,14 @@ const Footer = () => {
     <footer className="footer">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-4 footer-column">
+          <div className="col-md-4 footer-column footer-bottom">
             <label>
               Rua Antônio da Rocha Lima, 84 - Santa Efigênia
               <br />
               CEP 36032-420 - Juiz de Fora - MG
             </label>
           </div>
-          <div className="col-md-4 footer-column">
+          <div className="col-md-4 footer-column footer-bottom">
             <label>
               Telefone: (32) 99828-1521
               <br />
@@ -29,8 +29,8 @@ const Footer = () => {
             </label>
           </div>
           <div></div>
-          <a
-            className="col-md-4 footer-column"
+          <a 
+            className="col-md-4 footer-column footer-bottom"
             href="https://www.vianna.edu.br/"
             target="_blank"
           >

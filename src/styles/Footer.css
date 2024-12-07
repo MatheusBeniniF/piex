@@ -33,6 +33,20 @@
   flex-wrap: wrap;
 }
 
+@media (max-width:700px){
+  .footer .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .footer-bottom{
+    margin-bottom: 2vh;
+  }
+}
+
 .footer img,
 .footer a img {
   max-width: 180px;

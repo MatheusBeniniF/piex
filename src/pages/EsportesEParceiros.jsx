@@ -14,7 +14,7 @@ import souzaGomes from "../img/SouzaGomes.jpeg";
 import mrTugas from "../img/MrTugas.jpeg";
 import { Card } from "../components";
 import "../styles/TestemunhosEContato.css";
-import video from "../img/VideoCestaBasica.mp4";
+
 
 const EsportesEParceiros = () => {
   return (
