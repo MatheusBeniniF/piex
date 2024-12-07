@@ -1,6 +1,6 @@
 .carousel {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -8,6 +8,11 @@
     display: block;
   }
   
+  @media (min-width:1700px){
+    .carousel{
+      max-width: 1600px;
+    }
+  }
   .carousel-inner img {
     width: 100%;
     height: auto;
@@ -24,8 +29,8 @@
   .carousel-indicators li {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     margin: 0 5px;
   }
   

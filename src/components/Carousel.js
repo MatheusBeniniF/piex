@@ -3,6 +3,9 @@ import Carousel2 from "../img/Carousel2.jpeg";
 import Carousel3 from "../img/Carousel3.jpeg";
 import Carousel4 from "../img/Carousel4.jpeg";
 import Carousel5 from "../img/Carousel5.jpeg";
+import Carousel6 from "../img/Graduacao.jpeg";
+import Carousel7 from "../img/Graducao2.jpeg";
+import Carousel8 from "../img/Graduacao3.jpeg";
 import "../styles/carousel.css";
 
 const Carousel = () => {
@@ -23,6 +26,9 @@ const Carousel = () => {
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+
       </ol>
       <div className="carousel-inner" style={{ textAlign: "center" }}>
         <div className="carousel-item active">
@@ -43,6 +49,14 @@ const Carousel = () => {
         </div>
         <div className="carousel-item">
           <img src={Carousel5} alt="Fifth slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div className="carousel-item">
+          <img src={Carousel6} alt="Six slide" />
+          <div className="carousel-caption d-none d-md-block"></div>
+        </div>
+        <div className="carousel-item">
+          <img src={Carousel7} alt="Seven slide" />
           <div className="carousel-caption d-none d-md-block"></div>
         </div>
       </div>

@@ -10,6 +10,8 @@ import Angelyna from "../img/angelyna.jpeg";
 import laura from "../img/laura.jpeg";
 import zumba from "../img/zumba.jpeg";
 import estrelaImg from "../img/estrela.jpeg";
+import souzaGomes from "../img/SouzaGomes.jpeg";
+import mrTugas from "../img/MrTugas.jpeg";
 import { Card } from "../components";
 import "../styles/TestemunhosEContato.css";
 
@@ -135,7 +137,7 @@ const EsportesEParceiros = () => {
             >
               <img src={nathaliaImg} alt="Nathalia" className="imgBorder" />
             </a>
-            <h3>Instituto Nathalia Braga</h3>
+            <h3 style={{fontWeight:"bold"}}>Instituto Nathalia Braga</h3>
           </div>
           <div className="parceiro-card">
             <a
@@ -145,7 +147,7 @@ const EsportesEParceiros = () => {
             >
               <img src={bbqImg} alt="BBQ" className="imgBorder" />
             </a>
-            <h3>Churrasqueira BBQ</h3>
+            <h3 style={{fontWeight:"bold"}}>Churrasqueira BBQ</h3>
           </div>
           <div className="parceiro-card">
             <a
@@ -159,7 +161,35 @@ const EsportesEParceiros = () => {
                 className="imgBorder"
               />
             </a>
-            <h3>Estrela Urbanidade</h3>
+            <h3 style={{fontWeight:"bold"}}>Estrela Urbanidade</h3>
+          </div>
+          <div className="parceiro-card">
+            <a
+              href="https://souzagomes.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={souzaGomes}
+                alt="Souza Gomes"
+                className="imgBorder"
+              />
+            </a>
+            <h3 style={{fontWeight:"bold"}}>Souza Gomes</h3>
+          </div>
+          <div className="parceiro-card">
+            <a
+              href="https://www.mrtugas.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={mrTugas}
+                alt="Mr Tugas"
+                className="imgBorder"
+              />
+            </a>
+            <h3 style={{fontWeight:"bold"}}>Mr. Tugas</h3>
           </div>
         </div>
       </section>
