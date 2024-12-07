@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4 footer-column footer-bottom">
             <label>
-              Rua Antônio da Rocha Lima, 84 - Santa Efigênia
+              Rua Antônio da Rocha Lima, 268 - Santa Efigênia
               <br />
               CEP 36032-420 - Juiz de Fora - MG
             </label>

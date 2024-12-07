@@ -20,7 +20,7 @@ const SobreEServicos = () => {
               Kleyton Oliveira, sendo que o mesmo está à frente do projeto desde
               sua implantação. Atualmente a Associação Life Projetos Sociais, é
               registrada e localizada no bairro Santa Efigênia, Juiz de Fora/MG,
-              com sede provisória na rua Antônio da Rocha Lima, número 84, onde
+              com sede provisória na rua Antônio da Rocha Lima, número 268, onde
               atendemos diversas comunidades sitiadas.
             </label>
           </div>
