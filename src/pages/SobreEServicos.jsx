@@ -78,6 +78,7 @@ const SobreEServicos = () => {
             />
           </div>
         </div>
+        
 
         <div className="info-card">
           <div className="info-image">

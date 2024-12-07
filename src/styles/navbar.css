@@ -31,6 +31,14 @@
     object-fit: contain;
 }
 
+@media (max-width:1500px){
+    .navbar-logo {
+        width: 115px;
+        height: 108px;
+        object-fit: contain;
+    } 
+}
+
 .navbar-links {
     display: flex;
     list-style: none;

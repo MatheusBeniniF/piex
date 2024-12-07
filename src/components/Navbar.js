@@ -10,8 +10,9 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const closeMenu = () => {
+  const closeMenuAndScrollToTop = () => {
     setIsMenuOpen(false);
+    window.scrollTo(0, 0);
   };
 
   return (
@@ -25,17 +26,17 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
         <li>
-          <NavLink to="/" onClick={closeMenu}>
+          <NavLink to="/" onClick={closeMenuAndScrollToTop}>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/sobre-e-servicos" onClick={closeMenu}>
+          <NavLink to="/sobre-e-servicos" onClick={closeMenuAndScrollToTop}>
             Sobre e Serviços
           </NavLink>
         </li>
         <li>
-          <NavLink to="/esportes-e-parceiros" onClick={closeMenu}>
+          <NavLink to="/esportes-e-parceiros" onClick={closeMenuAndScrollToTop}>
             Esportes e Parceiros
           </NavLink>
         </li>
