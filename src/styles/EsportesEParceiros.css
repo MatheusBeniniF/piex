@@ -291,6 +291,7 @@
 
     .partners-grid {
         gap: 1rem;
+        padding: 0;
     }
 
     .infoTexto {
