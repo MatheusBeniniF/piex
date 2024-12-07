@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f0c238b.css",
-    "main.js": "/static/js/main.49532238.js",
+    "main.css": "/static/css/main.b407ff7c.css",
+    "main.js": "/static/js/main.440dab16.js",
     "static/js/453.3e6878f9.chunk.js": "/static/js/453.3e6878f9.chunk.js",
     "static/media/medicamento-generico.jpeg": "/static/media/medicamento-generico.e06b96b3327d8e563cc9.jpeg",
     "static/media/CestaBasica.jpeg": "/static/media/CestaBasica.64821731d2b51c269c03.jpeg",
     "static/media/Carousel5.jpeg": "/static/media/Carousel5.19806cec357026056ac0.jpeg",
+    "static/media/Graduacao.jpeg": "/static/media/Graduacao.dfb5ab90ac48f2908cd4.jpeg",
+    "static/media/Graducao2.jpeg": "/static/media/Graducao2.64b687b7b0215e326e4d.jpeg",
     "static/media/Carousel3.jpeg": "/static/media/Carousel3.0b1abb7e6c2d055b77da.jpeg",
     "static/media/Carousel1.jpeg": "/static/media/Carousel1.a5ef9412f70ea4d5a4da.jpeg",
     "static/media/Carousel4.jpeg": "/static/media/Carousel4.dbc96ae1270f9393d547.jpeg",
@@ -20,17 +22,18 @@
     "static/media/Familia.jpeg": "/static/media/Familia.766b13890a653e2f7a79.jpeg",
     "static/media/Futebol.jpeg": "/static/media/Futebol.0dd1194a6a5301a22b1c.jpeg",
     "static/media/alunos.jpeg": "/static/media/alunos.12f3dd02e1ac6ac0f95b.jpeg",
+    "static/media/Nathalia.jpeg": "/static/media/Nathalia.a925dde0c7ceac0067ef.jpeg",
+    "static/media/MrTugas.jpeg": "/static/media/MrTugas.5d5ac582c4cb394a7cb0.jpeg",
     "static/media/bbq.jpeg": "/static/media/bbq.20abeabac3dbc95f4c99.jpeg",
-    "static/media/Nathalia.jpeg": "/static/media/Nathalia.ebc8a58ea7024198c6f8.jpeg",
-    "static/media/MarcosChurrascada.jpeg": "/static/media/MarcosChurrascada.458cfbd748db1b856a98.jpeg",
     "static/media/estrela.jpeg": "/static/media/estrela.7fd58d78baf09c59bf3f.jpeg",
+    "static/media/SouzaGomes.jpeg": "/static/media/SouzaGomes.377a2270b3cfc63b34eb.jpeg",
     "index.html": "/index.html",
-    "main.8f0c238b.css.map": "/static/css/main.8f0c238b.css.map",
-    "main.49532238.js.map": "/static/js/main.49532238.js.map",
+    "main.b407ff7c.css.map": "/static/css/main.b407ff7c.css.map",
+    "main.440dab16.js.map": "/static/js/main.440dab16.js.map",
     "453.3e6878f9.chunk.js.map": "/static/js/453.3e6878f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f0c238b.css",
-    "static/js/main.49532238.js"
+    "static/css/main.b407ff7c.css",
+    "static/js/main.440dab16.js"
   ]
 }
