@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/EsportesEParceiros.css";
 import jiuJitsu3 from "../img/jiuJitsu3.jpeg";
 import imagemFut from "../img/Futebol.jpeg";
-import marcosImg from "../img/MarcosChurrascada.jpeg";
 import nathaliaImg from "../img/Nathalia.jpeg";
 import bbqImg from "../img/bbq.jpeg";
 import tresAlunos from "../img/alunos.jpeg";
@@ -31,11 +30,7 @@ const EsportesEParceiros = () => {
           </div>
 
           <div className="col-md-6">
-            <img
-              className="imgBorder"
-              src={imagemFut}
-              alt="Futebol"
-            />
+            <img className="imgBorder" src={imagemFut} alt="Futebol" />
           </div>
         </div>
 
@@ -48,12 +43,8 @@ const EsportesEParceiros = () => {
             Nosso projeto Social Life oferece aulas de jiu-jitsu para as
             crianças da nossa comunidade.
           </label>
-          
-          <img
-            className="imgJiu imgBorder"
-            src={jiuJitsu3}
-            alt="Jiu-jitsu"
-          />
+
+          <img className="imgJiu imgBorder" src={jiuJitsu3} alt="Jiu-jitsu" />
         </div>
 
         <div className="cardParceiros">
@@ -67,8 +58,8 @@ const EsportesEParceiros = () => {
         <div className="student-card">
           <div className="student-info">
             <label className="infoTexto">
-              Nossos três alunos que foram os pioneiros do jiu-jitsu no
-              projeto, tenho muito orgulho desses meus três filhos.
+              Nossos três alunos que foram os pioneiros do jiu-jitsu no projeto,
+              tenho muito orgulho desses meus três filhos.
             </label>
           </div>
 
@@ -137,26 +128,36 @@ const EsportesEParceiros = () => {
         <h2>Apoiadores</h2>
         <div className="partners-grid">
           <div className="parceiro-card">
-            <a href="https://www.instagram.com/marcoschurrascada_/" target="_blank" rel="noopener noreferrer">
-              <img src={marcosImg} alt="Marcos" className="imgBorder" />
-            </a>
-            <h3>Marcos Churrascada</h3>
-          </div>
-          <div className="parceiro-card">
-            <a href="https://www.instagram.com/institutonathaliabraga/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.instagram.com/institutonathaliabraga/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={nathaliaImg} alt="Nathalia" className="imgBorder" />
             </a>
             <h3>Instituto Nathalia Braga</h3>
           </div>
           <div className="parceiro-card">
-            <a href="https://churrasqueirabbq.com.br/" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://churrasqueirabbq.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={bbqImg} alt="BBQ" className="imgBorder" />
             </a>
             <h3>Churrasqueira BBQ</h3>
           </div>
           <div className="parceiro-card">
-            <a href="https://estrelaurbanidade.com.br/" target="_blank" rel="noopener noreferrer">
-              <img src={estrelaImg} alt="Estrela Urbanidade" className="imgBorder" />
+            <a
+              href="https://estrelaurbanidade.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={estrelaImg}
+                alt="Estrela Urbanidade"
+                className="imgBorder"
+              />
             </a>
             <h3>Estrela Urbanidade</h3>
           </div>
@@ -173,9 +174,11 @@ const EsportesEParceiros = () => {
           <p>
             Clique no botão abaixo para nos enviar uma mensagem pelo WhatsApp!
           </p>
-          <button 
+          <button
             className="whatsapp-button"
-            onClick={() => window.location.href = "https://wa.me/5532998281521"}
+            onClick={() =>
+              (window.location.href = "https://wa.me/5532998281521")
+            }
           >
             Fale Conosco pelo WhatsApp
           </button>

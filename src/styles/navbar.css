@@ -1,10 +1,11 @@
+/* Navbar Styles */
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 1500;
-    height: 19vh;
     padding: 1rem 2rem;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,12 +17,10 @@
     gap: 1rem;
 }
 
-.navbar-brand h1 {
+.navbar-title {
     font-size: 3rem;
     font-weight: bold;
     color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 .navbar-logo {
@@ -30,22 +29,9 @@
     object-fit: contain;
 }
 
-.navbar-title {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.navbar-title:hover {
-    color: #007bff;
-}
-
 .navbar-links {
-    list-style: none;
     display: flex;
-    gap: 15px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -56,42 +42,62 @@
 
 .navbar-links a {
     text-decoration: none;
-    color: black !important;
-    /* Cor dos links em preto */
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.navbar-links a:hover {
-    color: #007bff;
-    /* Cor ao passar o mouse */
-}
-
-.navbar ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar li a {
     color: #333;
-    text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: all 0.3s ease;
 }
 
-.navbar li a:hover {
+.navbar-links a:hover {
     color: #007bff;
-    /* Or any color that matches your theme */
     transform: translateY(-2px);
 }
 
-/* Optional: Add an active state for the current page */
-.navbar li a.active {
+.navbar-links a.active {
     color: #007bff;
     border-bottom: 2px solid #007bff;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #333;
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .navbar-brand {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar-title {
+        display: none; /* Hide title on mobile */
+    }
+
+    .hamburger {
+        display: block; /* Show hamburger button */
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #ffffff;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
 }
