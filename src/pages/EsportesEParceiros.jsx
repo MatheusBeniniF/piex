@@ -14,7 +14,6 @@ import souzaGomes from "../img/SouzaGomes.jpeg";
 import mrTugas from "../img/MrTugas.jpeg";
 import { Card } from "../components";
 import "../styles/TestemunhosEContato.css";
-import video from "../img/VideoCestaBasica.mp4";
 
 const EsportesEParceiros = () => {
   return (
@@ -138,7 +137,7 @@ const EsportesEParceiros = () => {
             >
               <img src={nathaliaImg} alt="Nathalia" className="imgBorder" />
             </a>
-            <h3 style={{fontWeight:"bold"}}>Instituto Nathalia Braga</h3>
+            <h3 style={{ fontWeight: "bold" }}>Instituto Nathalia Braga</h3>
           </div>
           <div className="parceiro-card">
             <a
@@ -148,7 +147,7 @@ const EsportesEParceiros = () => {
             >
               <img src={bbqImg} alt="BBQ" className="imgBorder" />
             </a>
-            <h3 style={{fontWeight:"bold"}}>Churrasqueira BBQ</h3>
+            <h3 style={{ fontWeight: "bold" }}>Churrasqueira BBQ</h3>
           </div>
           <div className="parceiro-card">
             <a
@@ -162,7 +161,7 @@ const EsportesEParceiros = () => {
                 className="imgBorder"
               />
             </a>
-            <h3 style={{fontWeight:"bold"}}>Estrela Urbanidade</h3>
+            <h3 style={{ fontWeight: "bold" }}>Estrela Urbanidade</h3>
           </div>
           <div className="parceiro-card">
             <a
@@ -170,13 +169,9 @@ const EsportesEParceiros = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={souzaGomes}
-                alt="Souza Gomes"
-                className="imgBorder"
-              />
+              <img src={souzaGomes} alt="Souza Gomes" className="imgBorder" />
             </a>
-            <h3 style={{fontWeight:"bold"}}>Souza Gomes</h3>
+            <h3 style={{ fontWeight: "bold" }}>Souza Gomes</h3>
           </div>
           <div className="parceiro-card">
             <a
@@ -184,13 +179,9 @@ const EsportesEParceiros = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={mrTugas}
-                alt="Mr Tugas"
-                className="imgBorder"
-              />
+              <img src={mrTugas} alt="Mr Tugas" className="imgBorder" />
             </a>
-            <h3 style={{fontWeight:"bold"}}>Mr. Tugas</h3>
+            <h3 style={{ fontWeight: "bold" }}>Mr. Tugas</h3>
           </div>
         </div>
       </section>

@@ -5,8 +5,7 @@ import Carousel4 from "../img/Carousel4.jpeg";
 import Carousel5 from "../img/Carousel5.jpeg";
 import Carousel6 from "../img/Graduacao.jpeg";
 import Carousel7 from "../img/Graducao2.jpeg";
-import Carousel8 from "../img/Graduacao3.jpeg";
-import "../styles/carousel.css";
+import "../styles/Carousel.css";
 
 const Carousel = () => {
   return (
