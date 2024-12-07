@@ -18,100 +18,68 @@ const EsportesEParceiros = () => {
   return (
     <div className="esportes-parceiros">
       <section>
-        <div style={{ backgroundColor: "#ec1d25" }}>
-          <h2 style={{ color: "white" }}>Esportes</h2>
+        <div className="section-header">
+          <h2>Esportes</h2>
         </div>
 
-        <div className="col-md-12 cardParceiros">
+        <div className="cardParceiros">
           <div className="col-md-6">
             <label className="infoTexto">
               Temos futebol de salão onde atendemos nossas crianças incentivando
-              ao esporte,com nosso treinador Sr. Nem.
+              ao esporte, com nosso treinador Sr. Nem.
             </label>
           </div>
 
           <div className="col-md-6">
             <img
               className="imgBorder"
-              style={{ width: "100%" }}
               src={imagemFut}
               alt="Futebol"
             />
           </div>
         </div>
 
-        <div style={{ backgroundColor: "#ec1d25" }}>
-          <h2 style={{ color: "white" }}>Jiu-Jitsu</h2>
+        <div className="section-header">
+          <h2>Jiu-Jitsu</h2>
         </div>
-        <div style={{ textAlign: "center" }}>
+
+        <div className="cardParceiros">
           <label className="infoTexto">
             Nosso projeto Social Life oferece aulas de jiu-jitsu para as
             crianças da nossa comunidade.
           </label>
+          
+          <img
+            className="imgJiu imgBorder"
+            src={jiuJitsu3}
+            alt="Jiu-jitsu"
+          />
         </div>
-        <div className="col-md-12 cardParceiros">
-          <div style={{ textAlign: "center" }}>
-            <img
-              className="imgJiu imgBorder"
-              style={{ width: "70%" }}
-              src={jiuJitsu3}
-            ></img>
-          </div>
-        </div>
-        <div style={{ marginTop: "5vh" }}>
-          <label className="infoTexto" style={{ textAlign: "center" }}>
+
+        <div className="cardParceiros">
+          <label className="infoTexto">
             Hoje atendemos algumas crianças no Jiu-Jitsu com autismo e déficit
             de atenção, onde o Jiu-Jitsu na vida delas tem sido um diferencial e
             a própria família tem visto o resultado positivo.
           </label>
         </div>
 
-        <div
-          className="col-md-12"
-          style={{
-            display: "flex",
-            backgroundColor: "white",
-            borderRadius: "4rem",
-            marginTop: "10vh",
-            height: "60vh",
-          }}
-        >
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
-            <label
-              style={{ textAlign: "center", color: "black" }}
-              className="infoTexto"
-            >
+        <div className="student-card">
+          <div className="student-info">
+            <label className="infoTexto">
               Nossos três alunos que foram os pioneiros do jiu-jitsu no
-              projeto,tenho muito orgulho desses meus três filhos.
+              projeto, tenho muito orgulho desses meus três filhos.
             </label>
           </div>
 
-          <div className="col-md-6 cardAlunos">
-            <img style={{ height: "90%" }} src={tresAlunos}></img>
+          <div className="student-image">
+            <img src={tresAlunos} alt="Três alunos" />
           </div>
         </div>
 
-        <div
-          className="col-md-12"
-          style={{
-            display: "flex",
-            backgroundColor: "white",
-            borderRadius: "4rem",
-            marginTop: "10vh",
-            height: "60vh",
-          }}
-        >
-          <div className="col-md-6 cardAlunos">
-            <img style={{ height: "90%" }} src={kleytonCrianca}></img>
-          </div>
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
-            <label className="infoTexto" style={{ color: "black" }}>
+        <div className="student-card">
+          <div className="student-info">
+            <label className="infoTexto">
               Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
               <br></br>
               Medalha de ouro em 2017 Copa Budô <br></br> Medalha de prata em
@@ -119,23 +87,15 @@ const EsportesEParceiros = () => {
               W-Force.
             </label>
           </div>
+
+          <div className="student-image">
+            <img src={kleytonCrianca} alt="Kleyton" />
+          </div>
         </div>
 
-        <div
-          className="col-md-12"
-          style={{
-            display: "flex",
-            backgroundColor: "white",
-            borderRadius: "4rem",
-            marginTop: "10vh",
-            height: "60vh",
-          }}
-        >
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
-            <label className="infoTexto" style={{ color: "black" }}>
+        <div className="student-card">
+          <div className="student-info">
+            <label className="infoTexto">
               Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
               <br></br>
               Medalha de prata em 2017 Copa Budô <br></br> Campeã do troféu 2018
@@ -143,29 +103,14 @@ const EsportesEParceiros = () => {
             </label>
           </div>
 
-          <div style={{ textAlign: "center" }} className="col-md-6 cardAlunos">
-            <img style={{ height: "90%" }} src={Angelyna}></img>
+          <div className="student-image">
+            <img src={Angelyna} alt="Angelyna" />
           </div>
         </div>
 
-        <div
-          className="col-md-12"
-          style={{
-            display: "flex",
-            backgroundColor: "white",
-            borderRadius: "4rem",
-            marginTop: "10vh",
-            height: "60vh",
-          }}
-        >
-          <div style={{ textAlign: "center" }} className="col-md-6 cardAlunos">
-            <img style={{ height: "90%" }} src={laura}></img>
-          </div>
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
-            <label className="infoTexto" style={{ color: "black" }}>
+        <div className="student-card">
+          <div className="student-info">
+            <label className="infoTexto">
               Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
               <br></br>
               Medalha de prata em 2017 Copa Budô <br></br> Medalha de prata em
@@ -173,129 +118,70 @@ const EsportesEParceiros = () => {
               W-Force.
             </label>
           </div>
+
+          <div className="student-image">
+            <img src={laura} alt="Laura" />
+          </div>
         </div>
 
-        <div
-          className="col-md-12"
-          style={{ marginTop: "10vh", textAlign: "center" }}
-        >
-          <img src={zumba} style={{ width: "70%" }}></img>
+        <div className="section-header">
+          <h2>Zumba</h2>
+        </div>
+
+        <div className="section-header image-container">
+          <img src={zumba} alt="Zumba" className="imgBorder" />
         </div>
       </section>
-      <div
-        style={{
-          backgroundColor: "#f4f4f4",
-          padding: "2rem 0",
-          marginBottom: "15rem",
-        }}
-      >
-        <h2
-          style={{ textAlign: "center", color: "#333", marginBottom: "1rem" }}
-        >
-          Apoiadores
-        </h2>
-        <div className="row" style={{ justifyContent: "center" }}>
-          <div className="col-md-3">
-            <div className="parceiro-card">
-              <a
-                href="https://www.instagram.com/marcoschurrascada_/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={marcosImg}
-                  alt="Marcos"
-                  className="img-fluid imgBorder"
-                />
-              </a>
 
-              <h3>Marcos Churrascada</h3>
-            </div>
+      <section className="partners-section">
+        <h2>Apoiadores</h2>
+        <div className="partners-grid">
+          <div className="parceiro-card">
+            <a href="https://www.instagram.com/marcoschurrascada_/" target="_blank" rel="noopener noreferrer">
+              <img src={marcosImg} alt="Marcos" className="imgBorder" />
+            </a>
+            <h3>Marcos Churrascada</h3>
           </div>
-          <div className="col-md-3">
-            <div className="parceiro-card">
-              <a
-                href="https://www.instagram.com/institutonathaliabraga/"
-                target="_blank"
-              >
-                {" "}
-                <img
-                  src={nathaliaImg}
-                  alt="Nathalia"
-                  className="img-fluid imgBorder"
-                />
-              </a>
-
-              <h3>Instituto Nathalia Braga</h3>
-            </div>
+          <div className="parceiro-card">
+            <a href="https://www.instagram.com/institutonathaliabraga/" target="_blank" rel="noopener noreferrer">
+              <img src={nathaliaImg} alt="Nathalia" className="imgBorder" />
+            </a>
+            <h3>Instituto Nathalia Braga</h3>
           </div>
-          <div className="col-md-3">
-            <div className="parceiro-card">
-              <a href="https://churrasqueirabbq.com.br/" target="_blank">
-                <img src={bbqImg} alt="BBQ" className="img-fluid imgBorder" />
-              </a>
-              <h3>Churrasqueira BBQ</h3>
-            </div>
+          <div className="parceiro-card">
+            <a href="https://churrasqueirabbq.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={bbqImg} alt="BBQ" className="imgBorder" />
+            </a>
+            <h3>Churrasqueira BBQ</h3>
           </div>
-          <div className="col-md-3">
-            <div className="parceiro-card">
-              <a href="https://estrelaurbanidade.com.br/" target="_blank">
-                <img
-                  src={estrelaImg}
-                  alt="Estrela Urbanidade"
-                  className="img-fluid imgBorder"
-                />
-              </a>
-
-              <h3>Estrela Urbanidade</h3>
-            </div>
+          <div className="parceiro-card">
+            <a href="https://estrelaurbanidade.com.br/" target="_blank" rel="noopener noreferrer">
+              <img src={estrelaImg} alt="Estrela Urbanidade" className="imgBorder" />
+            </a>
+            <h3>Estrela Urbanidade</h3>
           </div>
         </div>
-      </div>
-      <div className="testemunhos-contato">
-        <section>
-          <h2 style={{color:"white"}}>Contato</h2>
-          <Card title="Fale Conosco">
-            <p style={{ color: "black" }}>
-              Entre em contato conosco para saber mais ou para se tornar um
-              parceiro do Projeto Life.
-            </p>
-            <p style={{ color: "black" }}>
-              Clique no botão abaixo para nos enviar uma mensagem pelo WhatsApp!
-            </p>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <button
-                onClick={() =>
-                  (window.location.href = "https://wa.me/5532998281521")
-                }
-                target="_blank"
-                style={{
-                  backgroundColor: "#25D366",
-                  color: "white",
-                  border: "none",
-                  padding: "10px 20px",
-                  borderRadius: "5px",
-                  cursor: "pointer",
-                  fontSize: "16px",
-                }}
-              >
-                Fale Conosco pelo WhatsApp
-              </button>
-            </div>
-          </Card>
-        </section>
-   
-      <div style={{ height: "100%" }} />
-    </div>
-    </div>
+      </section>
 
-    
+      <section className="contact-section">
+        <h2>Contato</h2>
+        <Card title="Fale Conosco">
+          <p>
+            Entre em contato conosco para saber mais ou para se tornar um
+            parceiro do Projeto Life.
+          </p>
+          <p>
+            Clique no botão abaixo para nos enviar uma mensagem pelo WhatsApp!
+          </p>
+          <button 
+            className="whatsapp-button"
+            onClick={() => window.location.href = "https://wa.me/5532998281521"}
+          >
+            Fale Conosco pelo WhatsApp
+          </button>
+        </Card>
+      </section>
+    </div>
   );
 };
 

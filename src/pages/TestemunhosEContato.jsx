@@ -22,23 +22,14 @@ const TestemunhosEContato = () => {
                 justifyContent: "center",
               }}
             >
-              <button
-                onClick={() =>
-                  (window.location.href = "https://wa.me/5532998281521")
-                }
+              <a 
+                href="https://wa.me/5532998281521"
                 target="_blank"
-                style={{
-                  backgroundColor: "#25D366",
-                  color: "white",
-                  border: "none",
-                  padding: "10px 20px",
-                  borderRadius: "5px",
-                  cursor: "pointer",
-                  fontSize: "16px",
-                }}
+                rel="noopener noreferrer"
+                className="whatsapp-button"
               >
                 Fale Conosco pelo WhatsApp
-              </button>
+              </a>
             </div>
           </Card>
         </section>
