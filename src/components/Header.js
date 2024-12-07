@@ -48,7 +48,7 @@ const Header = () => {
         </p>
       </div>
       <div
-        style={{ textAlign: "right", marginTop: "15vh", marginBottom: "15rem" }}
+        style={{ textAlign: "right", marginTop: "15vh" }}
       >
         <h2 style={{ fontStyle: "italic", color: "black" }}>
           "Virtude sem caridade não passa de nome"

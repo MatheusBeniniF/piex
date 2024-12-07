@@ -27,7 +27,7 @@ const Navbar = () => {
       <ul className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
         <li>
           <NavLink to="/" onClick={closeMenuAndScrollToTop}>
-            Home
+            Início
           </NavLink>
         </li>
         <li>
