@@ -8,18 +8,13 @@ import medicamento from "../img/medicamento-generico.jpeg";
 const SobreEServicos = () => {
   return (
     <div className="sobre-servicos">
-      <div>
-        <h1 style={{ color: "white", marginBottom: "10vh" }}>
-          Como surgiu o projeto Life?
-        </h1>
-      </div>
       <section>
-        <div className="col-md-12" style={{ display: "flex" }}>
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
-            {" "}
+        <div className="section-header">
+          <h2>Como surgiu o projeto Life?</h2>
+        </div>
+
+        <div className="info-card">
+          <div className="info-text">
             <label className="infoTexto">
               A associação Life Projetos Sociais, existe há 15 anos, criada por
               Kleyton Oliveira, sendo que o mesmo está à frente do projeto desde
@@ -30,46 +25,30 @@ const SobreEServicos = () => {
             </label>
           </div>
 
-          <div
-            className="col-md-6"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            {" "}
+          <div className="info-image">
             <img
               className="imgBorder"
-              style={{ width: "65%" }}
               src={kleyton}
-            ></img>
+              alt="Kleyton"
+            />
           </div>
         </div>
       </section>
+
       <section>
-        <div>
-          <h1
-            style={{
-              color: "white",
-              marginBottom: "10vh",
-              textAlign: "center",
-            }}
-          >
-            O que ele faz?
-          </h1>
+        <div className="section-header">
+          <h2>O que ele faz?</h2>
         </div>
-        <div className="col-md-12" style={{ display: "flex" }}>
-          <div
-            className="col-md-6"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
+
+        <div className="info-card">
+          <div className="info-image">
             <img
               src={familia}
               className="imgBorder"
-              style={{ width: "65%" }}
-            ></img>
+              alt="Família"
+            />
           </div>
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
+          <div className="info-text">
             <label className="infoTexto">
               O projeto atende cerca de 480 famílias carentes entre deficientes
               físicos e crianças com autismo
@@ -77,55 +56,42 @@ const SobreEServicos = () => {
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: "20rem" }}>
-        <div style={{ backgroundColor: "#ec1d25" }}>
-          <h2 style={{ color: "white" }}>
-            Serviços Oferecidos pelo projeto Life são:
-          </h2>
+
+      <section>
+        <div className="section-header">
+          <h2>Serviços Oferecidos pelo projeto Life são:</h2>
         </div>
 
-        <div style={{ display: "flex" }} className="col-md-12">
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
+        <div className="info-card">
+          <div className="info-text">
             <label className="infoTexto">
               Cestas básicas, marcação de consultas,
-              cirurgias,fisioterapias,atendimentos jurídicos,psicológicos
+              cirurgias, fisioterapias, atendimentos jurídicos, psicológicos
               encaminhamento para creches e distribuição de remédios.
             </label>
           </div>
-          <div className="col-md-6">
+          <div className="info-image">
             <img
               src={cesta}
               className="imgBorder"
-              style={{ width: "100%" }}
-            ></img>
+              alt="Cesta Básica"
+            />
           </div>
         </div>
-        <div
-          style={{ display: "flex", marginTop: "10vh" }}
-          className="col-md-12"
-        >
-          <div
-            className="col-md-6"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
-            {" "}
+
+        <div className="info-card">
+          <div className="info-image">
             <img
               className="imgBorder"
               src={medicamento}
-              style={{ width: "65%" }}
-            ></img>
+              alt="Medicamentos"
+            />
           </div>
-          <div
-            style={{ display: "flex", alignItems: "center" }}
-            className="col-md-6"
-          >
+          <div className="info-text">
             <label className="infoTexto">
               Farmácia compartilhada: onde pessoas que não fazem mais uso de
-              certas medicações,doam para o projeto ,este encaminha para os
-              assistidos pelo mesmo,para manterem seus tratamentos diários.
+              certas medicações, doam para o projeto, este encaminha para os
+              assistidos pelo mesmo, para manterem seus tratamentos diários.
             </label>
           </div>
         </div>

@@ -1,58 +1,118 @@
 .sobre-servicos {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem 2rem;
   background-color: #016bb7;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .sobre-servicos section {
-  margin-bottom: 3rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.sobre-servicos h2 {
-  color: #2c3e50;
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+.section-header {
+  background-color: rgba(236, 29, 37, 0.8);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 800px;
   text-align: center;
-  position: relative;
+  width: 90%;
 }
 
-.imgBorder {
-  border-radius: 8rem;
+.section-header h2 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.info-card {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  margin: 2rem 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1000px;
+}
+
+.info-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.info-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-image img {
+  width: 65%;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.info-image img:hover {
+  transform: scale(1.02);
 }
 
 .infoTexto {
-  font-size: 25px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.8;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
   color: white;
-  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
   .sobre-servicos {
+    padding: 2rem 1rem;
+  }
+
+  .info-card {
+    flex-direction: column;
     padding: 1rem;
   }
 
-  .sobre-servicos h2 {
-    font-size: 2rem;
+  .info-image img {
+    width: 100%;
   }
 
   .infoTexto {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .sobre-servicos {
-    padding: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    padding: 0.75rem;
   }
 
-  .sobre-servicos h2 {
-    font-size: 1.5rem;
+  .section-header {
+    padding: 0.5rem 1rem;
+    margin: 1.5rem auto;
+    width: 95%;
   }
 
-  .infoTexto {
-    font-size: 18px;
+  .section-header h2 {
+    font-size: 1.6rem;
   }
 }
