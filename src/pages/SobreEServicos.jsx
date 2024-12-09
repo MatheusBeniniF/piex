@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/SobreEServicos.css";
 import kleyton from "../img/Kleyton.jpeg";
 import familia from "../img/Familia.jpeg";
+import familia2 from "../img/familia2.jpeg";
+import familia3 from "../img/familia 3.jpeg";
 import cesta from "../img/CestaBasica.jpeg";
 import medicamento from "../img/medicamento-generico.jpeg";
 
@@ -39,11 +41,22 @@ const SobreEServicos = () => {
         <div className="section-header">
           <h2>O que ele faz?</h2>
         </div>
-
         <div className="info-card">
           <div className="info-image">
-            <img
+            <img style={{ width: "82%" }}
               src={familia}
+              className="imgBorder"
+              alt="Família"
+            />
+          </div>     <div className="info-image">
+            <img style={{ width: "100%" }}
+              src={familia2}
+              className="imgBorder"
+              alt="Família"
+            />
+          </div>     <div className="info-image">
+            <img style={{ width: "63%" }}
+              src={familia3}
               className="imgBorder"
               alt="Família"
             />
@@ -78,7 +91,7 @@ const SobreEServicos = () => {
             />
           </div>
         </div>
-        
+
 
         <div className="info-card">
           <div className="info-image">

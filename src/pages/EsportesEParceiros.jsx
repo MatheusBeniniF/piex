@@ -12,6 +12,9 @@ import zumba from "../img/zumba.jpeg";
 import estrelaImg from "../img/estrela.jpeg";
 import souzaGomes from "../img/SouzaGomes.jpeg";
 import mrTugas from "../img/MrTugas.jpeg";
+import policia from "../img/policia.jpeg";
+import china from "../img/china.jpeg";
+import grill from "../img/Grill.jpeg";
 import { Card } from "../components";
 import "../styles/TestemunhosEContato.css";
 
@@ -183,6 +186,36 @@ const EsportesEParceiros = () => {
               <img src={mrTugas} alt="Mr Tugas" className="imgBorder" />
             </a>
             <h3 style={{ fontWeight: "bold" }}>Mr. Tugas</h3>
+          </div>
+          <div className="parceiro-card">
+            <a
+              href="https://www.policiamilitar.mg.gov.br/ "
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={policia} alt="Polícia Militar" className="imgBorder" />
+            </a>
+            <h3 style={{ fontWeight: "bold" }}>Polícia Militar</h3>
+          </div>
+          <div className="parceiro-card">
+            <a
+              href="https://www.chinainbox.com.br/tabs/home"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={china} alt="China in Box" className="imgBorder" />
+            </a>
+            <h3 style={{ fontWeight: "bold" }}>China in Box</h3>
+          </div>
+          <div className="parceiro-card">
+            <a
+              href="https://www.instagram.com/churrascadagrilljf/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={grill} alt="Churrascada Grill" className="imgBorder" />
+            </a>
+            <h3 style={{ fontWeight: "bold" }}>Churrascada Grill</h3>
           </div>
         </div>
       </section>
