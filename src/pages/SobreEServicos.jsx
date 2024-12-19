@@ -18,7 +18,7 @@ const SobreEServicos = () => {
         <div className="info-card">
           <div className="info-text">
             <label className="infoTexto">
-              A associação Life Projetos Sociais, existe há 15 anos, criada por
+              A associação Life Projetos Sociais, existe há 26 anos, criada por
               Kleyton Oliveira, sendo que o mesmo está à frente do projeto desde
               sua implantação. Atualmente a Associação Life Projetos Sociais, é
               registrada e localizada no bairro Santa Efigênia, Juiz de Fora/MG,
