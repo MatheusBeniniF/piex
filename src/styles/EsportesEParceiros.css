@@ -362,3 +362,11 @@
     background-color: transparent;
     box-shadow: none;
 }
+
+.imgVencedor{
+    padding: 1rem;
+}
+
+.imgVencedor img{
+    max-height: 700px;
+}

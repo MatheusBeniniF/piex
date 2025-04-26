@@ -15,6 +15,12 @@ import mrTugas from "../img/MrTugas.jpeg";
 import policia from "../img/policia.jpeg";
 import china from "../img/china.jpeg";
 import grill from "../img/Grill.jpeg";
+import vencedor1 from "../img/Vencedor_foto1.jpg";
+import vencedor2 from "../img/Vencedor_foto2.jpg";
+import vencedor3 from "../img/Vencedor_foto3.jpg";
+import vencedor4 from "../img/Vencedor_foto4.jpg";
+import vencedor5 from "../img/Vencedor_foto5.jpg";
+import vencedor6 from "../img/Vencedor_foto6.jpg";
 import { Card } from "../components";
 import "../styles/TestemunhosEContato.css";
 
@@ -119,6 +125,59 @@ const EsportesEParceiros = () => {
           <div className="student-image">
             <img src={laura} alt="Laura" />
           </div>
+        </div>
+
+        <div className="section-header">
+          <h2>Crianças que venceram campeonato de extremo Jiu-Jitsu na cidade de Mar de Espanha MG</h2>
+        </div>
+
+        <div className="cardParceiros">
+
+          <div>
+            <div className="imgVencedor">
+              <img src={vencedor1}
+                className="imgBorder"
+                alt="Vencedor(a)"
+              />
+            </div>
+            <div className="imgVencedor">
+              <img src={vencedor2}
+                className="imgBorder"
+                alt="Vencedor(a)"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div className="imgVencedor">
+              <img src={vencedor3}
+                className="imgBorder"
+                alt="Vencedor(a)"
+              />
+            </div>
+            <div className="imgVencedor">
+              <img src={vencedor4}
+                className="imgBorder"
+                alt="Vencedor(a)"
+              />
+            </div>
+          </div>
+
+          <div>
+            <div className="imgVencedor">
+              <img src={vencedor5}
+                className="imgBorder"
+                alt="Vencedor(a)"
+              />
+            </div>
+            <div className="imgVencedor">
+              <img src={vencedor6}
+                className="imgBorder"
+                alt="Vencedor(a)"
+              />
+            </div>
+          </div>
+
         </div>
 
         <div className="section-header">
