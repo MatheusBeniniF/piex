@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b407ff7c.css",
-    "main.js": "/static/js/main.440dab16.js",
+    "main.css": "/static/css/main.adff41e0.css",
+    "main.js": "/static/js/main.e0cac95a.js",
     "static/js/453.3e6878f9.chunk.js": "/static/js/453.3e6878f9.chunk.js",
     "static/media/medicamento-generico.jpeg": "/static/media/medicamento-generico.e06b96b3327d8e563cc9.jpeg",
+    "static/media/Familia.jpeg": "/static/media/Familia.c86a75f5f917c5083693.jpeg",
     "static/media/CestaBasica.jpeg": "/static/media/CestaBasica.64821731d2b51c269c03.jpeg",
     "static/media/Carousel5.jpeg": "/static/media/Carousel5.19806cec357026056ac0.jpeg",
     "static/media/Graduacao.jpeg": "/static/media/Graduacao.dfb5ab90ac48f2908cd4.jpeg",
     "static/media/Graducao2.jpeg": "/static/media/Graducao2.64b687b7b0215e326e4d.jpeg",
     "static/media/Carousel3.jpeg": "/static/media/Carousel3.0b1abb7e6c2d055b77da.jpeg",
     "static/media/Carousel1.jpeg": "/static/media/Carousel1.a5ef9412f70ea4d5a4da.jpeg",
+    "static/media/familia 3.jpeg": "/static/media/familia 3.631ab2e13eaa734a6d4e.jpeg",
     "static/media/Carousel4.jpeg": "/static/media/Carousel4.dbc96ae1270f9393d547.jpeg",
     "static/media/jiuJitsu3.jpeg": "/static/media/jiuJitsu3.dbc96ae1270f9393d547.jpeg",
     "static/media/Carousel2.jpeg": "/static/media/Carousel2.e09aeafb4179d1f06f31.jpeg",
@@ -19,7 +21,9 @@
     "static/media/angelyna.jpeg": "/static/media/angelyna.ef27a3d422d447e537ba.jpeg",
     "static/media/laura.jpeg": "/static/media/laura.e05f5c1e733bef7cd6d9.jpeg",
     "static/media/zumba.jpeg": "/static/media/zumba.53a035e232b60cd0fc6d.jpeg",
-    "static/media/Familia.jpeg": "/static/media/Familia.766b13890a653e2f7a79.jpeg",
+    "static/media/familia2.jpeg": "/static/media/familia2.a6106f7d70cef8b548e1.jpeg",
+    "static/media/policia.jpeg": "/static/media/policia.ffc239f6e34160cc7da2.jpeg",
+    "static/media/Grill.jpeg": "/static/media/Grill.49b7d3d82ae1fc145514.jpeg",
     "static/media/Futebol.jpeg": "/static/media/Futebol.0dd1194a6a5301a22b1c.jpeg",
     "static/media/alunos.jpeg": "/static/media/alunos.12f3dd02e1ac6ac0f95b.jpeg",
     "static/media/Nathalia.jpeg": "/static/media/Nathalia.a925dde0c7ceac0067ef.jpeg",
@@ -27,13 +31,14 @@
     "static/media/bbq.jpeg": "/static/media/bbq.20abeabac3dbc95f4c99.jpeg",
     "static/media/estrela.jpeg": "/static/media/estrela.7fd58d78baf09c59bf3f.jpeg",
     "static/media/SouzaGomes.jpeg": "/static/media/SouzaGomes.377a2270b3cfc63b34eb.jpeg",
+    "static/media/china.jpeg": "/static/media/china.becbb36079d9bde69d56.jpeg",
     "index.html": "/index.html",
-    "main.b407ff7c.css.map": "/static/css/main.b407ff7c.css.map",
-    "main.440dab16.js.map": "/static/js/main.440dab16.js.map",
+    "main.adff41e0.css.map": "/static/css/main.adff41e0.css.map",
+    "main.e0cac95a.js.map": "/static/js/main.e0cac95a.js.map",
     "453.3e6878f9.chunk.js.map": "/static/js/453.3e6878f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b407ff7c.css",
-    "static/js/main.440dab16.js"
+    "static/css/main.adff41e0.css",
+    "static/js/main.e0cac95a.js"
   ]
 }

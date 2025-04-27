@@ -1,0 +1,83 @@
+.imgVencedor {
+    padding: 1rem;
+}
+
+.imgVencedor img {
+    max-height: 700px;
+}
+
+.eventos {
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    background-color: #016bb7;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventos section {
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventos-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.evento-section {
+    margin-bottom: 40px;
+}
+
+/* Vencedores Grid Layout */
+.vencedores-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vencedores-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.imgVencedor:hover {
+    transform: scale(1.03);
+}
+
+
+/* Zumba Section */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .vencedores-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgVencedor {
+        width: 100%;
+        max-width: 300px;
+    }
+}

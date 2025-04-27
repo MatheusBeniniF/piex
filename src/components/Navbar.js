@@ -40,6 +40,11 @@ const Navbar = () => {
             Esportes e Parceiros
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/eventos" onClick={closeMenuAndScrollToTop}>
+            Eventos
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
