@@ -26,14 +26,14 @@
 
 .navbar-logo {
     width: 115px;
-    height: 180px;
+    height: 115px;
     object-fit: contain;
 }
 
 @media (max-width:1500px){
     .navbar-logo {
         width: 115px;
-        height: 108px;
+        height: 115px;
         object-fit: contain;
     } 
 }
