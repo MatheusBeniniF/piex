@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { EsportesEParceiros, Home, SobreEServicos, Eventos } from "./pages";
+import { EsportesEParceiros, Home, SobreEServicos, Eventos, GaleriaDosApoiadores } from "./pages";
 import { TestemunhosEContato } from "./pages/TestemunhosEContato";
 import { Footer, Navbar } from "./components";
 import "./styles/main.css";
@@ -19,6 +19,7 @@ function App() {
           element={<TestemunhosEContato />}
         />
         <Route path="/eventos" element={<Eventos />} />
+        <Route path="/galeria-dos-apoiadores" element={<GaleriaDosApoiadores />} />
       </Routes>
       <Footer />
     </Router>

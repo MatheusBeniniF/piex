@@ -45,6 +45,11 @@ const Navbar = () => {
             Eventos
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/galeria-dos-apoiadores" onClick={closeMenuAndScrollToTop}>
+            Galeria dos Apoiadores
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
