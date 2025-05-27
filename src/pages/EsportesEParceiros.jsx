@@ -15,6 +15,7 @@ import mrTugas from "../img/MrTugas.jpeg";
 import policia from "../img/policia.jpeg";
 import china from "../img/china.jpeg";
 import grill from "../img/Grill.jpeg";
+import ssxMarinho from "../img/ssx-marinho.png"
 import vencedor1 from "../img/Vencedor_foto1.jpg";
 import vencedor2 from "../img/Vencedor_foto2.jpg";
 import vencedor3 from "../img/Vencedor_foto3.jpg";
@@ -275,6 +276,16 @@ const EsportesEParceiros = () => {
               <img src={grill} alt="Churrascada Grill" className="imgBorder" />
             </a>
             <h3 style={{ fontWeight: "bold" }}>Churrascada Grill</h3>
+          </div>
+          <div className="parceiro-card">
+            <a
+              href="https://www.ssxassessoriapatrimonial.com.br/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={ssxMarinho} alt="SSX Marinho" className="imgBorder" />
+            </a>
+            <h3 style={{ fontWeight: "bold" }}>SSX Marinho</h3>
           </div>
         </div>
       </section>
