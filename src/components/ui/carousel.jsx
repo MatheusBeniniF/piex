@@ -1,23 +1,24 @@
-import * as React from "react"
-import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons"
-import { cn } from "@/lib/utils"
+import * as React from "react";
+
+import { cn } from "../../lib/utils";
+import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 
 const Carousel = React.forwardRef(({ className, children, ...props }, ref) => {
-  const [currentSlide, setCurrentSlide] = React.useState(0)
-  const slides = React.Children.toArray(children)
+  const [currentSlide, setCurrentSlide] = React.useState(0);
+  const slides = React.Children.toArray(children);
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length)
-  }
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length)
-  }
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
 
   React.useEffect(() => {
-    const timer = setInterval(nextSlide, 5000)
-    return () => clearInterval(timer)
-  }, [])
+    const timer = setInterval(nextSlide, 5000);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div
@@ -58,17 +59,13 @@ const Carousel = React.forwardRef(({ className, children, ...props }, ref) => {
         ))}
       </div>
     </div>
-  )
-})
-Carousel.displayName = "Carousel"
+  );
+});
+Carousel.displayName = "Carousel";
 
 const CarouselItem = React.forwardRef(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn("min-w-full shrink-0", className)}
-    {...props}
-  />
-))
-CarouselItem.displayName = "CarouselItem"
+  <div ref={ref} className={cn("min-w-full shrink-0", className)} {...props} />
+));
+CarouselItem.displayName = "CarouselItem";
 
-export { Carousel, CarouselItem }
+export { Carousel, CarouselItem };

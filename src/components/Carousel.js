@@ -5,7 +5,7 @@ import Carousel4 from "../img/Carousel4.jpeg";
 import Carousel5 from "../img/Carousel5.jpeg";
 import Carousel6 from "../img/Graduacao.jpeg";
 import Carousel7 from "../img/Graducao2.jpeg";
-import "../styles/Carousel.css";
+import "../styles/carousel.css";
 
 const Carousel = () => {
   return (
@@ -27,7 +27,6 @@ const Carousel = () => {
         <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-
       </ol>
       <div className="carousel-inner" style={{ textAlign: "center" }}>
         <div className="carousel-item active">

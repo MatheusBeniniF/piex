@@ -22,119 +22,195 @@ import vencedor3 from "../img/Vencedor_foto3.jpg";
 import vencedor4 from "../img/Vencedor_foto4.jpg";
 import vencedor5 from "../img/Vencedor_foto5.jpg";
 import vencedor6 from "../img/Vencedor_foto6.jpg";
-import { Card } from "../components";
-import "../styles/TestemunhosEContato.css";
-
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
+import { Button } from "../components/ui/button";
 
 const EsportesEParceiros = () => {
-  return (
-    <div className="esportes-parceiros">
-      <section>
-        <div className="section-header">
-          <h2>Esportes</h2>
-        </div>
+  const parceiros = [
+    {
+      nome: "Nathalia Braga",
+      descricao: "Instituto Nathalia Braga",
+      link: "https://www.instagram.com/institutonathaliabraga/",
+      imagem: nathaliaImg,
+      alt: "Nathalia"
+    },
+    {
+      nome: "Churrasqueira BBQ",
+      descricao: "Churrasqueira de qualidade",
+      link: "https://churrasqueirabbq.com.br/",
+      imagem: bbqImg,
+      alt: "BBQ"
+    },
+    {
+      nome: "Estrela Urbanidade",
+      descricao: "Instituto de Educação",
+      link: "https://estrelaurbanidade.com.br/",
+      imagem: estrelaImg,
+      alt: "Estrela Urbanidade"
+    },
+    {
+      nome: "Souza Gomes",
+      descricao: "Souza Gomes",
+      link: "https://souzagomes.com.br/",
+      imagem: souzaGomes,
+      alt: "Souza Gomes"
+    },
+    {
+      nome: "Mr. Tugas",
+      descricao: "Mr. Tugas",
+      link: "https://www.mrtugas.com.br/",
+      imagem: mrTugas,
+      alt: "Mr Tugas"
+    },
+    {
+      nome: "Polícia Militar",
+      descricao: "Polícia Militar",
+      link: "https://www.policiamilitar.mg.gov.br/",
+      imagem: policia,
+      alt: "Polícia Militar"
+    },
+    {
+      nome: "China in Box",
+      descricao: "China in Box",
+      link: "https://www.chinainbox.com.br/tabs/home",
+      imagem: china,
+      alt: "China in Box"
+    },
+    {
+      nome: "Churrascada Grill",
+      descricao: "Churrascada Grill",
+      link: "https://www.instagram.com/churrascadagrilljf/",
+      imagem: grill,
+      alt: "Churrascada Grill"
+    },
+    {
+      nome: "SSX Marinho",
+      descricao: "SSX Marinho",
+      link: "https://www.ssxassessoriapatrimonial.com.br/",
+      imagem: ssxMarinho,
+      alt: "SSX Marinho"
+    }
+  ];
 
-        <div className="cardParceiros">
-          <div className="col-md-6">
-            <label className="infoTexto">
+  return (
+    <div className="flex flex-col gap-2 container mx-auto px-4 py-8">
+      <h2>Esportes</h2>
+      <Card className="bg-white/95 backdrop-blur">
+        <CardHeader>
+          <CardTitle>Futebol</CardTitle>
+        </CardHeader>
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p>
               Temos futebol de salão onde atendemos nossas crianças incentivando
               ao esporte, com nosso treinador Sr. Nem.
-            </label>
-          </div>
-
-          <div className="col-md-6">
+            </p>
             <img className="imgBorder" src={imagemFut} alt="Futebol" />
           </div>
-        </div>
 
-        <div className="section-header">
-          <h2>Jiu-Jitsu</h2>
-        </div>
+        </CardContent>
+      </Card>
 
-        <div className="cardParceiros">
-          <label className="infoTexto">
-            Nosso projeto Social Life oferece aulas de jiu-jitsu para as
-            crianças da nossa comunidade.
-          </label>
+      <Card className="bg-white/95 backdrop-blur">
+        <CardHeader>
+          <CardTitle>Jiu-Jitsu</CardTitle>
+        </CardHeader>
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p>
+              Nosso projeto Social Life oferece aulas de jiu-jitsu para as
+              crianças da nossa comunidade.
+            </p>
+            <img className="imgJiu imgBorder" src={jiuJitsu3} alt="Jiu-jitsu" />
+          </div>
+        </CardContent>
+      </Card>
 
-          <img className="imgJiu imgBorder" src={jiuJitsu3} alt="Jiu-jitsu" />
-        </div>
-
-        <div className="cardParceiros">
-          <label className="infoTexto">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardContent className="prose prose-lg">
+          <p>
             Hoje atendemos algumas crianças no Jiu-Jitsu com autismo e déficit
             de atenção, onde o Jiu-Jitsu na vida delas tem sido um diferencial e
             a própria família tem visto o resultado positivo.
-          </label>
-        </div>
+          </p>
+        </CardContent>
+      </Card>
 
-        <div className="student-card">
-          <div className="student-info">
-            <label className="infoTexto">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p className="flex align-center justify-center">
               Nossos três alunos que foram os pioneiros do jiu-jitsu no projeto,
               tenho muito orgulho desses meus três filhos.
-            </label>
-          </div>
-
-          <div className="student-image">
+            </p>
             <img src={tresAlunos} alt="Três alunos" />
           </div>
-        </div>
+        </CardContent>
+      </Card>
 
-        <div className="student-card">
-          <div className="student-info">
-            <label className="infoTexto">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p>
               Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
-              <br></br>
               Medalha de ouro em 2017 Copa Budô <br></br> Medalha de prata em
               2018 Campeonato Soul <br></br> Medalha de bronze em 2019 1º Copa
               W-Force.
-            </label>
-          </div>
-
-          <div className="student-image">
+            </p>
             <img src={kleytonCrianca} alt="Kleyton" />
           </div>
-        </div>
+        </CardContent>
+      </Card>
 
-        <div className="student-card">
-          <div className="student-info">
-            <label className="infoTexto">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p>
               Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
               <br></br>
               Medalha de prata em 2017 Copa Budô <br></br> Campeã do troféu 2018
               Campeonato Soul <br></br> Medalha de ouro em 2019 1º Copa W-Force.
-            </label>
-          </div>
-
-          <div className="student-image">
+            </p>
             <img src={Angelyna} alt="Angelyna" />
           </div>
-        </div>
+        </CardContent>
+      </Card>
 
-        <div className="student-card">
-          <div className="student-info">
-            <label className="infoTexto">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p>
+              Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
+              <br></br>
+              Medalha de prata em 2017 Copa Budô <br></br> Campeã do troféu 2018
+              Campeonato Soul <br></br> Medalha de ouro em 2019 1º Copa W-Force.
+            </p>
+            <img src={Angelyna} alt="Angelyna" />
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card className="bg-white/95 backdrop-blur">
+        <CardContent className="prose prose-lg">
+          <div className="flex">
+            <p>
               Iniciou aos 6 anos de idade e hoje na faixa cinza e branca.
               <br></br>
               Medalha de prata em 2017 Copa Budô <br></br> Medalha de prata em
               2018 Campeonato Soul<br></br> Medalha de ouro em 2019 1º Copa
               W-Force.
-            </label>
+            </p>
+            <img src={laura} alt="laura" />
           </div>
+        </CardContent>
+      </Card>
 
-          <div className="student-image">
-            <img src={laura} alt="Laura" />
-          </div>
-        </div>
-
-        <div className="section-header">
-          <h2>Crianças que venceram campeonato de extremo Jiu-Jitsu na cidade de Mar de Espanha MG</h2>
-        </div>
-
-        <div className="cardParceiros">
-
-          <div>
+      <Card className="bg-white/95 backdrop-blur">
+        <CardHeader>
+          Crianças que venceram campeonato de extremo Jiu-Jitsu na cidade de Mar de Espanha MG
+        </CardHeader>
+        <CardContent className="prose prose-lg">
+          <div className="flex justify-between">
             <div className="imgVencedor">
               <img src={vencedor1}
                 className="imgBorder"
@@ -149,7 +225,7 @@ const EsportesEParceiros = () => {
             </div>
           </div>
 
-          <div>
+          <div className="flex justify-between">
             <div className="imgVencedor">
               <img src={vencedor3}
                 className="imgBorder"
@@ -164,7 +240,7 @@ const EsportesEParceiros = () => {
             </div>
           </div>
 
-          <div>
+          <div className="flex justify-between">
             <div className="imgVencedor">
               <img src={vencedor5}
                 className="imgBorder"
@@ -178,138 +254,63 @@ const EsportesEParceiros = () => {
               />
             </div>
           </div>
+        </CardContent>
+      </Card>
 
-        </div>
-
-        <div className="section-header">
-          <h2>Zumba</h2>
-        </div>
-
-        <div className="section-header image-container">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardHeader>
+          <CardTitle>Zumba</CardTitle>
+        </CardHeader>
+        <CardContent className="prose prose-lg">
           <img src={zumba} alt="Zumba" className="imgBorder" />
-        </div>
-      </section>
+        </CardContent>
+      </Card>
 
-      <section className="partners-section">
-        <h2>Apoiadores</h2>
-        <div className="partners-grid">
-          <div className="parceiro-card">
-            <a
-              href="https://www.instagram.com/institutonathaliabraga/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={nathaliaImg} alt="Nathalia" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Instituto Nathalia Braga</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://churrasqueirabbq.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={bbqImg} alt="BBQ" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Churrasqueira BBQ</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://estrelaurbanidade.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={estrelaImg}
-                alt="Estrela Urbanidade"
-                className="imgBorder"
-              />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Estrela Urbanidade</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://souzagomes.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={souzaGomes} alt="Souza Gomes" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Souza Gomes</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://www.mrtugas.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={mrTugas} alt="Mr Tugas" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Mr. Tugas</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://www.policiamilitar.mg.gov.br/ "
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={policia} alt="Polícia Militar" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Polícia Militar</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://www.chinainbox.com.br/tabs/home"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={china} alt="China in Box" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>China in Box</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://www.instagram.com/churrascadagrilljf/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={grill} alt="Churrascada Grill" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>Churrascada Grill</h3>
-          </div>
-          <div className="parceiro-card">
-            <a
-              href="https://www.ssxassessoriapatrimonial.com.br/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={ssxMarinho} alt="SSX Marinho" className="imgBorder" />
-            </a>
-            <h3 style={{ fontWeight: "bold" }}>SSX Marinho</h3>
-          </div>
-        </div>
-      </section>
+      <Card className="bg-white/95 backdrop-blur">
+        <CardHeader>
+          <CardTitle>Apoiadores</CardTitle>
+        </CardHeader>
+        <CardContent className="prose prose-lg grid grid-cols-3">
+          {parceiros.map((parceiro, index) => {
+            return (
+              <div key={index} className="parceiro-card">
+                <a
+                  href={parceiro.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={parceiro.imagem} alt={parceiro.alt} />
+                </a>
+                <h3 style={{ fontWeight: "bold" }}>{parceiro.nome}</h3>
+              </div>
+            )
+          })}
+        </CardContent>
+      </Card>
 
-      <section className="contact-section">
-        <h2>Contato</h2>
-        <Card title="Fale Conosco">
+      <Card className="bg-white/95 backdrop-blur">
+        <CardHeader>
+          <CardTitle>
+            Contato
+          </CardTitle>
+        </CardHeader>
+        <CardContent className="prose prose-lg">
           <p>
-            Entre em contato conosco para saber mais ou para se tornar um
-            parceiro do Projeto Life.
+            Para mais informações ou para se tornar um parceiro do Projeto Life,
+            entre em contato conosco pelo WhatsApp.
           </p>
-          <p>
-            Clique no botão abaixo para nos enviar uma mensagem pelo WhatsApp!
-          </p>
-          <button
-            className="whatsapp-button"
-            onClick={() =>
-              (window.location.href = "https://wa.me/5532998281521")
-            }
-          >
-            Fale Conosco pelo WhatsApp
-          </button>
-        </Card>
-      </section>
+          <div className="flex align-center justify-center mt-2">
+            <Button
+              variant="whatsapp"
+              onClick={() =>
+                (window.location.href = "https://wa.me/5532998281521")
+              }
+            >
+              Fale Conosco pelo WhatsApp
+            </Button>
+          </div>
+        </CardContent>
+      </Card>
     </div>
   );
 };

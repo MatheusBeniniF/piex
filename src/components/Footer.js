@@ -29,7 +29,7 @@ const Footer = () => {
             </label>
           </div>
           <div></div>
-          <a 
+          <a
             className="col-md-4 footer-column footer-bottom"
             href="https://www.vianna.edu.br/"
             target="_blank"
