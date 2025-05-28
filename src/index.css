@@ -1,18 +1,34 @@
-@media (max-width: 768px) {
-  .App {
-    padding: 10px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  .container {
-    flex-direction: column;
-    gap: 15px;
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-gray-50;
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-secondary-600 text-white rounded-lg hover:bg-secondary-700 transition-colors;
   }
 
   .card {
-    max-width: 100%;
+    @apply bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow;
   }
 
-  .carousel {
-    width: 100%;
+  .section-title {
+    @apply text-3xl font-bold text-gray-900 mb-6 text-center;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }

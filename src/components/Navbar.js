@@ -1,56 +1,84 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import LogoNova from "../img/LogoNova.jpeg";
-import "../styles/navbar.css";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  const closeMenuAndScrollToTop = () => {
-    setIsMenuOpen(false);
-    window.scrollTo(0, 0);
-  };
+  const navigation = [
+    { name: 'Início', to: '/' },
+    { name: 'Sobre e Serviços', to: '/sobre-e-servicos' },
+    { name: 'Esportes e Parceiros', to: '/esportes-e-parceiros' },
+    { name: 'Eventos', to: '/eventos' },
+    { name: 'Galeria dos Apoiadores', to: '/galeria-dos-apoiadores' },
+  ];
 
   return (
-    <nav className="navbar">
-      <div className="navbar-brand">
-        <img src={LogoNova} alt="Projeto Life Logo" className="navbar-logo" />
-        <h1 className="navbar-title">Projeto Life</h1>
-        <button className="hamburger" onClick={toggleMenu}>
-          &#9776;
-        </button>
+    <nav className="bg-white shadow-md">
+      <div className="container-custom">
+        <div className="flex items-center justify-between h-20">
+          <div className="flex items-center gap-4">
+            <img src={LogoNova} alt="Logo" className="h-16 w-16 object-contain" />
+            <span className="text-2xl font-bold text-gray-900">Projeto Life</span>
+          </div>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            {navigation.map((item) => (
+              <NavLink
+                key={item.name}
+                to={item.to}
+                className={({ isActive }) =>
+                  `text-base font-medium transition-colors ${
+                    isActive
+                      ? 'text-primary-600 border-b-2 border-primary-600'
+                      : 'text-gray-700 hover:text-primary-600'
+                  }`
+                }
+              >
+                {item.name}
+              </NavLink>
+            ))}
+          </div>
+
+          {/* Mobile menu button */}
+          <div className="md:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="p-2 rounded-md text-gray-700 hover:text-gray-900"
+            >
+              {isOpen ? (
+                <XMarkIcon className="h-6 w-6" />
+              ) : (
+                <Bars3Icon className="h-6 w-6" />
+              )}
+            </button>
+          </div>
+        </div>
+
+        {/* Mobile Navigation */}
+        {isOpen && (
+          <div className="md:hidden py-4">
+            {navigation.map((item) => (
+              <NavLink
+                key={item.name}
+                to={item.to}
+                onClick={() => setIsOpen(false)}
+                className={({ isActive }) =>
+                  `block py-2 px-4 text-base font-medium ${
+                    isActive
+                      ? 'text-primary-600 bg-primary-50'
+                      : 'text-gray-700 hover:bg-gray-50'
+                  }`
+                }
+              >
+                {item.name}
+              </NavLink>
+            ))}
+          </div>
+        )}
       </div>
-      <ul className={`navbar-links ${isMenuOpen ? "active" : ""}`}>
-        <li>
-          <NavLink to="/" onClick={closeMenuAndScrollToTop}>
-            Início
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/sobre-e-servicos" onClick={closeMenuAndScrollToTop}>
-            Sobre e Serviços
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/esportes-e-parceiros" onClick={closeMenuAndScrollToTop}>
-            Esportes e Parceiros
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/eventos" onClick={closeMenuAndScrollToTop}>
-            Eventos
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/galeria-dos-apoiadores" onClick={closeMenuAndScrollToTop}>
-            Galeria dos Apoiadores
-          </NavLink>
-        </li>
-      </ul>
     </nav>
   );
 };
