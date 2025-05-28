@@ -33,6 +33,7 @@ const Footer = () => {
             className="col-md-4 footer-column footer-bottom"
             href="https://www.vianna.edu.br/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src={Vianna} alt="vianna" />
           </a>
