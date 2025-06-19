@@ -4,12 +4,20 @@ import galeria1 from "../img/galeria1.jpeg";
 import galeria2 from "../img/galeria2.jpeg";
 import galeria3 from "../img/galeria3.jpeg";
 import galeria4 from "../img/galeria4.jpeg";
+import galeria5 from "../img/galeria5.jpg";
+import galeria6 from "../img/galeria6.jpg";
+import galeria7 from "../img/galeria7.jpg";
+import galeria8 from "../img/galeria8.jpg";
+import galeria9 from "../img/galeria9.jpg";
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 
 export function GaleriaDosApoiadores() {
   const galeriaImagens = [
     [galeria1, galeria2],
-    [galeria3, galeria4]
+    [galeria3, galeria4],
+    [galeria5, galeria6],
+    [galeria7, galeria8],
+    [galeria9]
   ];
 
   return (
