@@ -5,7 +5,7 @@ import vencedor3 from "../img/Vencedor_foto3.jpg";
 import vencedor4 from "../img/Vencedor_foto4.jpg";
 import vencedor5 from "../img/Vencedor_foto5.jpg";
 import vencedor6 from "../img/Vencedor_foto6.jpg";
-import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
+import { Card, CardContent, CardHeader } from "../components/ui/card"
 
 export function Eventos() {
     return (

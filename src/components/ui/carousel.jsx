@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useCallback, useEffect } from "react";
 
 import { cn } from "../../lib/utils";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
@@ -7,18 +7,18 @@ const Carousel = React.forwardRef(({ className, children, ...props }, ref) => {
   const [currentSlide, setCurrentSlide] = React.useState(0);
   const slides = React.Children.toArray(children);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
+  }, [slides.length]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
+  }, [slides.length]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const timer = setInterval(nextSlide, 5000);
     return () => clearInterval(timer);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <div

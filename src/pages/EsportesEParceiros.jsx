@@ -16,12 +16,6 @@ import policia from "../img/policia.jpeg";
 import china from "../img/china.jpeg";
 import grill from "../img/Grill.jpeg";
 import ssxMarinho from "../img/ssx-marinho.png"
-import vencedor1 from "../img/Vencedor_foto1.jpg";
-import vencedor2 from "../img/Vencedor_foto2.jpg";
-import vencedor3 from "../img/Vencedor_foto3.jpg";
-import vencedor4 from "../img/Vencedor_foto4.jpg";
-import vencedor5 from "../img/Vencedor_foto5.jpg";
-import vencedor6 from "../img/Vencedor_foto6.jpg";
 import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card"
 import { Button } from "../components/ui/button";
 
@@ -94,7 +88,6 @@ const EsportesEParceiros = () => {
 
   return (
     <div className="flex flex-col gap-2 container mx-auto px-4 py-8">
-      <h2>Esportes</h2>
       <Card className="bg-white/95 backdrop-blur">
         <CardHeader>
           <CardTitle>Futebol</CardTitle>
@@ -201,58 +194,6 @@ const EsportesEParceiros = () => {
               W-Force.
             </p>
             <img src={laura} alt="laura" />
-          </div>
-        </CardContent>
-      </Card>
-
-      <Card className="bg-white/95 backdrop-blur">
-        <CardHeader>
-          Crianças que venceram campeonato de extremo Jiu-Jitsu na cidade de Mar de Espanha MG
-        </CardHeader>
-        <CardContent className="prose prose-lg">
-          <div className="flex justify-between">
-            <div className="imgVencedor">
-              <img src={vencedor1}
-                className="imgBorder"
-                alt="Vencedor(a)"
-              />
-            </div>
-            <div className="imgVencedor">
-              <img src={vencedor2}
-                className="imgBorder"
-                alt="Vencedor(a)"
-              />
-            </div>
-          </div>
-
-          <div className="flex justify-between">
-            <div className="imgVencedor">
-              <img src={vencedor3}
-                className="imgBorder"
-                alt="Vencedor(a)"
-              />
-            </div>
-            <div className="imgVencedor">
-              <img src={vencedor4}
-                className="imgBorder"
-                alt="Vencedor(a)"
-              />
-            </div>
-          </div>
-
-          <div className="flex justify-between">
-            <div className="imgVencedor">
-              <img src={vencedor5}
-                className="imgBorder"
-                alt="Vencedor(a)"
-              />
-            </div>
-            <div className="imgVencedor">
-              <img src={vencedor6}
-                className="imgBorder"
-                alt="Vencedor(a)"
-              />
-            </div>
           </div>
         </CardContent>
       </Card>
